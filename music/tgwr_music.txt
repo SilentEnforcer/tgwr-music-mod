@@ -3,10 +3,72 @@ music_station = "tgwr_main_music"
 ### General ###
 
 music = {
+	song = "maintheme"
+	chance = {
+		base = 0
+		modifier = {
+			add = 0.5
+		}	
+		modifier = {
+			add = 3
+			has_war = yes
+			tag = AUH
+		}		
+	}
+}
+music = {
 	song = "the_rite_of_spring"
 	chance = {
 		base = 0
 		modifier = { add = 1	has_war = no }
+	}
+}
+music = {
+	song = "red_baron"
+	chance = {
+		base = 0
+		modifier = { add = 1	has_war = yes }
+	}
+}
+music = {
+	song = "flanders_field"
+	chance = {
+		base = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_war = no
+				date > 1917.1.1
+			}	
+		}
+		modifier = {
+			factor = 0
+			date < 1914.1.1
+		}	
+	}
+}
+music = {
+	song = "battle_of_marne"
+	chance = {
+		base = 0
+		modifier = {
+			add = 1		
+			has_war = yes
+		}	
+	}
+}
+music = {
+	song = "motherland"
+	chance = {
+		base = 0
+		modifier = {
+			add = 0.5
+			has_war = yes
+		}
+		modifier = {
+			add = 0.5
+			tag = RUS
+		}
 	}
 }
 ##### Regional #####
@@ -29,14 +91,14 @@ music = {
 
 ### ENG - United Kingdom ###
 music = {
-	song = "eng_bombed_last_night"
+	song = "british_theme"
 	chance = {
 		base = 0
 		modifier = { add = 2	original_tag = ENG }
 	}
 }
 music = {
-	song = "eng_its_a_long_way_to_tipperary"
+	song = "eng_bombed_last_night"
 	chance = {
 		base = 0
 		modifier = { add = 2	original_tag = ENG }
@@ -58,6 +120,17 @@ music = {
 }
 
 ### FRA - France ###
+music = {
+	song = "symphony_funebre_et_triomphale"
+	chance = {
+		base = 0.5
+		modifier = {
+			add = 3
+			has_war = yes
+			original_tag = FRA
+		}		
+	}
+}
 music = {
 	song = "fra_le_chant_des_africains"
 	chance = {
@@ -126,6 +199,23 @@ music = {
 	}
 }
 
+### ITA - Italy ###
+music = {
+	song = "italian_theme"
+	chance = {
+		base = 0
+		modifier = {
+			add = 1	
+			has_war = yes
+		}
+		modifier = {
+			add = 2
+			has_war = yes
+			tag = ITA
+		}
+	}	
+}
+
 ### RUS - Russia ###
 music = {
 	song = "rus_vakht_na_reyne"
@@ -141,6 +231,33 @@ music = {
 			}	
 		}
 	}
+}
+music = {
+	song = "russian_empire_theme"
+	chance = {
+		base = 0
+		modifier = {
+			add = 2
+			tag = RUS
+		}
+		modifier = {
+			add = 1.5
+			OR = {
+				tag = BUL
+				tag = SER
+				tag = MNT
+			}	
+		}
+		modifier = {
+			add = 2
+			OR = {
+				tag = BUL
+				tag = SER
+				tag = MNT
+			}
+			has_war_with = TUR
+		}
+	}	
 }
 music = {
 	song = "sov_bolshevik_leaves_home"
@@ -218,4 +335,16 @@ music = {
 		base = 0
 		modifier = { add = 2	original_tag = USA }
 	}
+}
+
+### TUR - Ottoman Empire / Turkey ###
+music = {
+	song = "ottoman_theme"
+	chance = {
+		base = 0
+		modifier = {
+			add = 2
+			original_tag = TUR
+		}	
+	}	
 }

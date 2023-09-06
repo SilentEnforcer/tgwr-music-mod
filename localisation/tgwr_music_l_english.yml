@@ -11,11 +11,14 @@
 ##### Cultural  Regions #####
 #############################
 
+### BUL - Bulgaria ###
+ bul_the_battle_has_begun: "The Battle Has Begun!"
+ bul_tih_byal_dunav: "Tih Byal Dunav"
 
 ### ENG - United Kingdom ###
  eng_bombed_last_night: "Bombed Last Night"
- eng_its_a_long_way_to_tipperary: "It's a Long Way to Tipperary"
  eng_the_laddies_who_fought_and_won: "The Laddies Who Fought and Won"
+ eng_the_connaught_rangers: "Connaught Rangers"
 
 ### FRA - France ###
  fra_le_chant_des_africains: "Le Chant des Africains"
