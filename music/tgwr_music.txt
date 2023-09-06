@@ -1,0 +1,221 @@
+music_station = "tgwr_main_music"
+
+### General ###
+
+music = {
+	song = "the_rite_of_spring"
+	chance = {
+		base = 0
+		modifier = { add = 1	has_war = no }
+	}
+}
+##### Regional #####
+
+### BUL - Bulgaria ###
+music = {
+	song = "bul_the_battle_has_begun"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = BUL }
+	}
+}
+music = {
+	song = "bul_tih_byal_dunav"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = BUL }
+	}
+}
+
+### ENG - United Kingdom ###
+music = {
+	song = "eng_bombed_last_night"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = ENG }
+	}
+}
+music = {
+	song = "eng_its_a_long_way_to_tipperary"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = ENG }
+	}
+}
+music = {
+	song = "eng_the_connaught_rangers"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = ENG }
+	}
+}
+music = {
+	song = "eng_the_laddies_who_fought_and_won"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = ENG }
+	}
+}
+
+### FRA - France ###
+music = {
+	song = "fra_le_chant_des_africains"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = FRA }
+	}
+}
+music = {
+	song = "fra_verdun_on_ne_passe_pas"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = FRA }
+	}
+}
+music = {
+	song = "fra_vous_n_aurez_pas_l_alsace_et_la_lorraine"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = FRA }
+	}
+}
+
+### GER - Germany ###
+music = {
+	song = "ger_argonnerwaldlied"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = GER }
+	}
+}
+music = {
+	song = "ger_die_wacht_am_rhein"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = GER }
+	}
+}
+music = {
+	song = "ger_wo_alle_strassen_enden"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = GER }
+	}
+}
+
+### GRE - Greece ###
+music = {
+	song = "gre_kleftikos"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = GRE }
+	}
+}
+music = {
+	song = "gre_march_of_smyrna"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = GRE }
+	}
+}
+music = {
+	song = "gre_the_liberation_of_serres"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = GRE }
+	}
+}
+
+### RUS - Russia ###
+music = {
+	song = "rus_vakht_na_reyne"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			original_tag = RUS  
+			is_russia_a_monarchy = yes
+			OR = {
+				is_in_faction_with = GER
+				is_subject_of = GER
+			}	
+		}
+	}
+}
+music = {
+	song = "sov_bolshevik_leaves_home"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			original_tag = SOV
+			has_government = communism
+		}
+	}
+}
+music = {
+	song = "sov_march_of_the_red_cavalry"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			original_tag = SOV
+			has_government = communism
+		}
+	}
+}
+music = {
+	song = "sov_varshavianka"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = RUS
+				original_tag = SOV
+			}	
+			OR = {
+				has_government = communism
+			}	
+		}
+	}
+}
+
+### SER - Serbia ###
+music = {
+	song = "ser_tamo_daleko"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = SER }
+	}
+}
+music = {
+	song = "ser_march_on_the_drina"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = SER }
+	}
+}
+music = {
+	song = "ser_town_of_tekerish"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = SER }
+	}
+}
+
+### USA - United States of America ###
+music = {
+	song = "usa_colonel_bogey_march"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = USA }
+	}
+}
+music = {
+	song = "usa_over_there"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = USA }
+	}
+}

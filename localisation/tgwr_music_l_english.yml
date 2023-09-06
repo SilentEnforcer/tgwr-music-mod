@@ -1,0 +1,48 @@
+﻿l_english:
+
+#############################
+#####      Generic      #####
+#############################
+
+### General ###
+ the_rite_of_spring: "The Rite of Spring"
+
+#############################
+##### Cultural  Regions #####
+#############################
+
+
+### ENG - United Kingdom ###
+ eng_bombed_last_night: "Bombed Last Night"
+ eng_its_a_long_way_to_tipperary: "It's a Long Way to Tipperary"
+ eng_the_laddies_who_fought_and_won: "The Laddies Who Fought and Won"
+
+### FRA - France ###
+ fra_le_chant_des_africains: "Le Chant des Africains"
+ fra_verdun_on_ne_passe_pas: "Verdun! On ne passe pas"
+ fra_vous_n_aurez_pas_l_alsace_et_la_lorraine: "Vous n'aurez pas l'Alsace et la Lorraine"
+
+### GER - Germany ###
+ ger_argonnerwaldlied: "Argonnerwaldlied"
+ ger_die_wacht_am_rhein: "Die Wacht am Rhein"
+ ger_wo_alle_strassen_enden: "Wo alle Straßen enden"
+
+### GRE - Greece ###
+ gre_kleftikos: "Kleftikos"
+ gre_march_of_smyrna: "March of Smyrna"
+ gre_the_liberation_of_serres: "The Liberation of Serres"
+
+### RUS - Russia ###
+ rus_vakht_na_reyne: "Strazha na Reyne"
+ sov_bolshevik_leaves_home: "Bolshevik leaves home"
+ sov_march_of_the_red_cavalry: "March of the Red Calvary"
+ sov_varshavianka: "Varshavianka"
+
+### SER - Serbia ###
+ ser_tamo_daleko: "Tamo daleko"
+ ser_march_on_the_drina: "March on the Drina"
+ ser_town_of_tekerish: "Town of Tekerish"
+ 
+### USA - United States of America ###
+ usa_colonel_bogey_march: "Colonel Bogey March"
+ usa_over_there: "Over There"

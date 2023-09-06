@@ -1,0 +1,146 @@
+##### Generic #####
+
+### General ###
+music = {
+	name = "the_rite_of_spring"
+	file = "audio/01_europe/the_rite_of_spring.ogg"
+	volume = 0.65
+}
+
+##### Regional #####
+
+### BUL - Bulgaria ###
+music = {
+	name = "bul_the_battle_has_begun"
+	file = "audio/01_europe/BUL/bul_the_battle_has_begun.ogg"
+	volume = 0.65
+}
+music = {
+	name = "bul_tih_byal_dunav"
+	file = "audio/01_europe/BUL/bul_tih_byal_dunav.ogg"
+	volume = 0.65
+}
+
+### ENG - United Kingdom ###
+music = {
+	name = "eng_bombed_last_night"
+	file = "audio/01_europe/ENG/eng_bombed_last_night.ogg"
+	volume = 0.65
+}
+music = {
+	name = "eng_its_a_long_way_to_tipperary"
+	file = "audio/01_europe/ENG/eng_its_a_long_way_to_tipperary.ogg"
+	volume = 0.65
+}
+music = {
+	name = "eng_the_connaught_rangers"
+	file = "audio/01_europe/ENG/eng_the_connaught_rangers.ogg"
+	volume = 0.65
+}
+music = {
+	name = "eng_the_laddies_who_fought_and_won"
+	file = "audio/01_europe/ENG/eng_the_laddies_who_fought_and_won.ogg"
+	volume = 0.65
+}
+
+### FRA - France ###
+music = {
+	name = "fra_le_chant_des_africains"
+	file = "audio/01_europe/FRA/fra_le_chant_des_africains.ogg"
+	volume = 0.65
+}
+music = {
+	name = "fra_verdun_on_ne_passe_pas"
+	file = "audio/01_europe/FRA/fra_verdun_on_ne_passe_pas.ogg"
+	volume = 0.65
+}
+music = {
+	name = "fra_vous_n_aurez_pas_l_alsace_et_la_lorraine"
+	file = "audio/01_europe/FRA/fra_vous_n_aurez_pas_l_alsace_et_la_lorraine.ogg"
+	volume = 0.65
+}
+
+### GER - Germany ###
+music = {
+	name = "ger_argonnerwaldlied"
+	file = "audio/01_europe/GER/ger_argonnerwaldlied.ogg"
+	volume = 0.65
+}
+music = {
+	name = "ger_die_wacht_am_rhein"
+	file = "audio/01_europe/GER/ger_die_wacht_am_rhein.ogg"
+	volume = 0.65
+}
+music = {
+	name = "ger_wo_alle_strassen_enden"
+	file = "audio/01_europe/GER/ger_wo_alle_strassen_enden.ogg"
+	volume = 0.65
+}
+
+### GRE - Greece ###
+music = {
+	name = "gre_kleftikos"
+	file = "audio/01_europe/GRE/gre_kleftikos.ogg"
+	volume = 0.65
+}
+music = {
+	name = "gre_march_of_smyrna"
+	file = "audio/01_europe/GRE/gre_march_of_smyrna.ogg"
+	volume = 0.65
+}
+music = {
+	name = "gre_the_liberation_of_serres"
+	file = "audio/01_europe/GRE/gre_the_liberation_of_serres.ogg"
+	volume = 0.65
+}
+
+### RUS - Russia ###
+music = {
+	name = "rus_vakht_na_reyne"
+	file = "audio/01_europe/RUS/rus_vakht_na_reyne.ogg"
+	volume = 0.65
+}
+music = {
+	name = "sov_bolshevik_leaves_home"
+	file = "audio/01_europe/RUS/sov_bolshevik_leaves_home.ogg"
+	volume = 0.65
+}
+music = {
+	name = "sov_march_of_the_red_cavalry"
+	file = "audio/01_europe/RUS/sov_march_of_the_red_cavalry.ogg"
+	volume = 0.65
+}
+music = {
+	name = "sov_varshavianka"
+	file = "audio/01_europe/RUS/sov_varshavianka.ogg"
+	volume = 0.65
+}
+
+### SER - Serbia ###
+music = {
+	name = "ser_tamo_daleko"
+	file = "audio/01_europe/SER/ser_tamo_daleko.ogg"
+	volume = 0.65
+}
+music = {
+	name = "ser_march_on_the_drina"
+	file = "audio/01_europe/SER/ser_march_on_the_drina.ogg"
+	volume = 0.65
+}
+music = {
+	name = "ser_town_of_tekerish"
+	file = "audio/01_europe/SER/ser_town_of_tekerish.ogg"
+	volume = 0.65
+}
+
+### USA - United States of America ###
+music = {
+	name = "usa_colonel_bogey_march"
+	file = "audio/02_americas/USA/usa_colonel_bogey_march.ogg"
+	volume = 0.65
+}
+music = {
+	name = "usa_over_there"
+	file = "audio/02_americas/USA/usa_over_there.ogg"
+	volume = 0.65
+}
