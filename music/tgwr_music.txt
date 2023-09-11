@@ -1106,9 +1106,44 @@ music = {
 	song = "ottoman_theme"
 	chance = {
 		base = 0
+		modifier = { add = 2 original_tag = TUR }	
+	}	
+}
+music = {
+	song = "tur_aziziye_marsi"
+	chance = {
+		base = 0
 		modifier = {
 			add = 2
 			original_tag = TUR
+			has_war = no
+		}	
+	}	
+}
+music = {
+	song = "tur_ceddin_deden"
+	chance = {
+		base = 0
+		modifier = {
+			add = 1
+			original_tag = TUR
+		}	
+		modifier = {
+			factor = 4
+			has_war = yes
+		}
+	}	
+}
+music = {
+	song = "tur_enver_pasa_marsi"
+	chance = {
+		base = 0
+		modifier = {
+			add = 4
+			original_tag = TUR
+			has_country_leader = {
+				character = TUR_ismail_enver
+			}
 		}	
 	}	
 }
