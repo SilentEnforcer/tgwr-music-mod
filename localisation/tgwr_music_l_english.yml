@@ -5,11 +5,22 @@
 #############################
 
 ### General ###
+ 1812_overture: "1812 Overture"
+ autumn_dream: "Autumn Dream"
+ dies_irae: "Dies irae"
  the_rite_of_spring: "The Rite of Spring"
 
 #############################
 ##### Cultural  Regions #####
 #############################
+
+### BEL - Belgium ###
+ bel_extinction_de_lumieres_en_fantaisie: "Extinction de lumières en fantaisie"
+ bel_marche_de_l_artillerie_de_campagne: "Marche de l'Artillerie de Campagne"
+ bel_marche_du_1er_regiment_de_carabiniers_cyclistes: "Marche du 1er Régiment de Carabiniers Cyclistes"
+ bel_marche_du_1er_regiment_des_lanciers: "Marche du 1èr Régiment des Lanciers"
+ bel_marche_du_4eme_escadron: "Marche du 4ème Escadron du 1er Régiment des Guides"
+ bel_marche_du_12eme_regiment: "Marche du 12ème Régiment de Ligne «Prince Léopold»"
 
 ### BUL - Bulgaria ###
  bul_the_battle_has_begun: "The Battle Has Begun!"
@@ -17,11 +28,25 @@
 
 ### ENG - United Kingdom ###
  eng_bombed_last_night: "Bombed Last Night"
- eng_the_laddies_who_fought_and_won: "The Laddies Who Fought and Won"
+ eng_britain_ask_of_thyself: "Britain, Ask Of Thyself"
+ eng_by_order_of_the_king: "By Order of the King"
+ eng_heart_of_oak: "Heart of Oak"
+ eng_jerusalem: "Jerusalem"
+ eng_land_of_hope_and_glory: "Land of Hope and Glory"
+ eng_sons_of_the_brave: "Sons of the Brave"
+ eng_the_british_grenadiers: "The British Grenadiers"
  eng_the_connaught_rangers: "Connaught Rangers"
+ eng_the_laddies_who_fought_and_won: "The Laddies Who Fought and Won"
 
 ### FRA - France ###
+ fra_ah_ca_ira: "Ah! ça ira"
+ fra_amoureuse: "Amoureuse"
+ fra_chant_du_depart: "Chant du départ"
+ fra_l_internationale: "L'Internationale"
+ fra_la_marseillaise: "La Marseillaise"
+ fra_la_strasbourgeoise: "La Strasbourgeoise"
  fra_le_chant_des_africains: "Le Chant des Africains"
+ fra_le_regiment_de_sambre_et_meuse: "Le Régiment de Sambre et Meuse"
  fra_verdun_on_ne_passe_pas: "Verdun! On ne passe pas"
  fra_vous_n_aurez_pas_l_alsace_et_la_lorraine: "Vous n'aurez pas l'Alsace et la Lorraine"
 
@@ -34,18 +59,67 @@
  gre_kleftikos: "Kleftikos"
  gre_march_of_smyrna: "March of Smyrna"
  gre_the_liberation_of_serres: "The Liberation of Serres"
+ 
+### ITA - Italy ###
+ ita_fantasia_echi_di_trincea: "Fantasia «Echi di trincea»"
+ ita_fratelli_d_italia: "Fratelli d'Italia"
+ ita_la_leggenda_del_piave: "La Leggenda del Piave"
+ ita_marcia_reale: "Marcia Reale"
+ 
+### POR - Portugual ###
+ por_a_portuguesa: "A Portuguesa"
+ por_hino_da_carta: "Hino da Carta" 
 
 ### RUS - Russia ###
+ rus_god_save_the_tsar: "God Save the Tsar!"
+ rus_jaeger_march: "Jaeger March"
+ rus_march_borodino: "March Borodino"
+ rus_march_of_pechora_regiment: "March of Pechora Regiment"
+ rus_march_of_the_preobrazhensky_regiment: "March of the Preobrazhensky Regiment"
+ rus_march_of_the_sevastopol_infantry_regiment: "March of the Sevastopol 75th Infantry Regiment"
+ rus_march_of_the_siberian_riflemen: "March of Siberian Riflemen"
+ rus_semenovsky_regiment_march: "Semenovsky Regiment March"
+ rus_slavsya: "Slavsya"
+ rus_swan_lake: "Swan Lake"
+ rus_through_carpatian_mountains: "Through Carpatian Mountains"
  rus_vakht_na_reyne: "Strazha na Reyne"
  sov_bolshevik_leaves_home: "Bolshevik leaves home"
  sov_march_of_the_red_cavalry: "March of the Red Calvary"
+ sov_tachanka: "Tachanka"
  sov_varshavianka: "Varshavianka"
+ vln_mother_anarchy: "Mother Anarchy Loves Her Sons"
 
 ### SER - Serbia ###
  ser_tamo_daleko: "Tamo daleko"
  ser_march_on_the_drina: "March on the Drina"
  ser_town_of_tekerish: "Town of Tekerish"
  
+### SPR - Spain ###
+ spr_marcha_real: "Marcha Real"
+ 
+### CAN - Canada ###
+ can_anti_fenian_song: "Anti-Fenian Song" 
+ can_farewell_to_nova_scotia: "Farewell to Nova Scotia" 
+ 
 ### USA - United States of America ###
+ usa_all_aboard_for_dixieland: "All Aboard For Dixieland"
+ usa_america_heres_my_boy: "America, Here's My Boy"
+ usa_au_revoir_but_not_goodbye_soldier_boy: "Au Revoir But Not Good Bye, Soldier Boy"
+ usa_by_the_beautiful_sea: "By the Beautiful Sea"
  usa_colonel_bogey_march: "Colonel Bogey March"
+ usa_for_your_boy_and_my_boy: "For Your Boy and My Boy"
+ usa_goodbye_broadway_hello_france: "Good Bye Broadway, Hello France"
+ usa_columbia_gem_of_the_ocean: "Columbia, the Gem of the Ocean"
+ usa_how_ya_gonna_keep_em_down_on_the_farm: "How Ya Gonna Keep 'em Down on the Farm"
+ usa_i_didnt_raise_my_boy_to_be_a_soldier: "I Didn't Raise My Boy to Be a Soldier"
+ usa_i_may_be_gone_for_a_long_long_time: "I May Be Gone for a Long, Long Time"
+ usa_im_gonna_pin_my_medal_on_the_girl_i_left_behind: "I'm Gonna Pin My Medal on the Girl I Left Behind"
+ usa_like_washington_crossed_the_delaware: "Like Washington Crossed the Delaware"
+ usa_oui_oui_marie: "Oui, Oui, Marie"
  usa_over_there: "Over There"
+ usa_say_a_prayer_for_our_boys: "Say a Prayer for the Boys "Out There""
+ usa_silver_bell: "Silver Bell"
+ usa_the_lights_of_my_home_town: "The Lights of My Home Town"
+ usa_the_yellow_rose_of_texas: "The Yellow Rose of Texas"
+ usa_when_johnny_comes_marching_home: "We Don't Want the Bacon"
+ usa_when_johnny_comes_marching_home: "When Johnny Comes Marching Home"

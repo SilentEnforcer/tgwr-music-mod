@@ -2,12 +2,59 @@
 
 ### General ###
 music = {
+	name = "1812_overture"
+	file = "audio/01_europe/1812_overture.ogg"
+	volume = 0.7
+}
+music = {
+	name = "autumn_dream"
+	file = "audio/01_europe/autumn_dream.ogg"
+	volume = 0.7
+}
+music = {
+	name = "dies_irae"
+	file = "audio/01_europe/dies_irae.ogg"
+	volume = 0.7
+}
+music = {
 	name = "the_rite_of_spring"
 	file = "audio/01_europe/the_rite_of_spring.ogg"
 	volume = 0.65
 }
 
 ##### Regional #####
+
+### BEL - Belgium ###
+music = {
+	name = "bel_extinction_de_lumieres_en_fantaisie"
+	file = "audio/01_europe/BEL/bel_extinction_de_lumieres_en_fantaisie.ogg"
+	volume = 0.65
+}
+music = {
+	name = "bel_marche_de_l_artillerie_de_campagne"
+	file = "audio/01_europe/BEL/bel_marche_de_l_artillerie_de_campagne.ogg"
+	volume = 0.65
+}
+music = {
+	name = "bel_marche_du_1er_regiment_de_carabiniers_cyclistes"
+	file = "audio/01_europe/BEL/bel_marche_du_1er_regiment_de_carabiniers_cyclistes.ogg"
+	volume = 0.65
+}
+music = {
+	name = "bel_marche_du_1er_regiment_des_lanciers"
+	file = "audio/01_europe/BEL/bel_marche_du_1er_regiment_des_lanciers.ogg"
+	volume = 0.65
+}
+music = {
+	name = "bel_marche_du_4eme_escadron"
+	file = "audio/01_europe/BEL/bel_marche_du_4eme_escadron.ogg"
+	volume = 0.65
+}
+music = {
+	name = "bel_marche_du_12eme_regiment"
+	file = "audio/01_europe/BEL/bel_marche_du_12eme_regiment.ogg"
+	volume = 0.65
+}
 
 ### BUL - Bulgaria ###
 music = {
@@ -28,6 +75,41 @@ music = {
 	volume = 0.65
 }
 music = {
+	name = "eng_britain_ask_of_thyself"
+	file = "audio/01_europe/ENG/eng_britain_ask_of_thyself.ogg"
+	volume = 0.65
+}
+music = {
+	name = "eng_by_order_of_the_king"
+	file = "audio/01_europe/ENG/eng_by_order_of_the_king.ogg"
+	volume = 0.65
+}
+music = {
+	name = "eng_heart_of_oak"
+	file = "audio/01_europe/ENG/eng_heart_of_oak.ogg"
+	volume = 0.65
+}
+music = {
+	name = "eng_jerusalem"
+	file = "audio/01_europe/ENG/eng_jerusalem.ogg"
+	volume = 0.65
+}
+music = {
+	name = "eng_land_of_hope_and_glory"
+	file = "audio/01_europe/ENG/eng_land_of_hope_and_glory.ogg"
+	volume = 0.65
+}
+music = {
+	name = "eng_sons_of_the_brave"
+	file = "audio/01_europe/ENG/eng_sons_of_the_brave.ogg"
+	volume = 0.65
+}
+music = {
+	name = "eng_the_british_grenadiers"
+	file = "audio/01_europe/ENG/eng_the_british_grenadiers.ogg"
+	volume = 0.65
+}
+music = {
 	name = "eng_the_connaught_rangers"
 	file = "audio/01_europe/ENG/eng_the_connaught_rangers.ogg"
 	volume = 0.65
@@ -40,8 +122,43 @@ music = {
 
 ### FRA - France ###
 music = {
+	name = "fra_ah_ca_ira"
+	file = "audio/01_europe/FRA/fra_ah_ca_ira.ogg"
+	volume = 0.65
+}
+music = {
+	name = "fra_amoureuse"
+	file = "audio/01_europe/FRA/fra_amoureuse.ogg"
+	volume = 0.65
+}
+music = {
+	name = "fra_chant_du_depart"
+	file = "audio/01_europe/FRA/fra_chant_du_depart.ogg"
+	volume = 0.65
+}
+music = {
+	name = "fra_l_internationale"
+	file = "audio/01_europe/FRA/fra_l_internationale.ogg"
+	volume = 0.65
+}
+music = {
+	name = "fra_la_marseillaise"
+	file = "audio/01_europe/FRA/fra_la_marseillaise.ogg"
+	volume = 0.65
+}
+music = {
+	name = "fra_la_strasbourgeoise"
+	file = "audio/01_europe/FRA/fra_la_strasbourgeoise.ogg"
+	volume = 0.65
+}
+music = {
 	name = "fra_le_chant_des_africains"
 	file = "audio/01_europe/FRA/fra_le_chant_des_africains.ogg"
+	volume = 0.65
+}
+music = {
+	name = "fra_le_regiment_de_sambre_et_meuse"
+	file = "audio/01_europe/FRA/fra_le_regiment_de_sambre_et_meuse.ogg"
 	volume = 0.65
 }
 music = {
@@ -89,7 +206,96 @@ music = {
 	volume = 0.65
 }
 
+### ITA - Italy ###
+music = {
+	name = "ita_fantasia_echi_di_trincea"
+	file = "audio/01_europe/ITA/ita_fantasia_echi_di_trincea.ogg"
+	volume = 0.65
+}
+music = {
+	name = "ita_fratelli_d_italia"
+	file = "audio/01_europe/ITA/ita_fratelli_d_italia.ogg"
+	volume = 0.65
+}
+music = {
+	name = "ita_la_leggenda_del_piave"
+	file = "audio/01_europe/ITA/ita_la_leggenda_del_piave.ogg"
+	volume = 0.65
+}
+music = {
+	name = "ita_marcia_reale"
+	file = "audio/01_europe/ITA/ita_marcia_reale.ogg"
+	volume = 0.65
+}
+
+### POR - Portugual ###
+music = {
+	name = "por_a_portuguesa"
+	file = "audio/01_europe/POR/por_a_portuguesa.ogg"
+	volume = 0.65
+}
+music = {
+	name = "por_hino_da_carta"
+	file = "audio/01_europe/POR/por_hino_da_carta.ogg"
+	volume = 0.65
+}
+
 ### RUS - Russia ###
+music = {
+	name = "rus_god_save_the_tsar"
+	file = "audio/01_europe/RUS/rus_god_save_the_tsar.ogg"
+	volume = 0.65
+}
+music = {
+	name = "rus_jaeger_march"
+	file = "audio/01_europe/RUS/rus_jaeger_march.ogg"
+	volume = 0.65
+}
+music = {
+	name = "rus_march_borodino"
+	file = "audio/01_europe/RUS/rus_march_borodino.ogg"
+	volume = 0.65
+}
+music = {
+	name = "rus_march_of_pechora_regiment"
+	file = "audio/01_europe/RUS/rus_march_of_pechora_regiment.ogg"
+	volume = 0.65
+}
+music = {
+	name = "rus_march_of_the_preobrazhensky_regiment"
+	file = "audio/01_europe/RUS/rus_march_of_the_preobrazhensky_regiment.ogg"
+	volume = 0.65
+}
+music = {
+	name = "rus_march_of_the_sevastopol_infantry_regiment"
+	file = "audio/01_europe/RUS/rus_march_of_the_sevastopol_infantry_regiment.ogg"
+	volume = 0.65
+}
+music = {
+	name = "rus_march_of_the_siberian_riflemen"
+	file = "audio/01_europe/RUS/rus_march_of_the_siberian_riflemen.ogg"
+	volume = 0.65
+}
+music = {
+	name = "rus_semenovsky_regiment_march"
+	file = "audio/01_europe/RUS/rus_semenovsky_regiment_march.ogg"
+	volume = 0.65
+}
+music = {
+	name = "rus_slavsya"
+	file = "audio/01_europe/RUS/rus_slavsya.ogg"
+	volume = 0.65
+}
+music = {
+	name = "rus_swan_lake"
+	file = "audio/01_europe/RUS/rus_swan_lake.ogg"
+	volume = 0.65
+}
+music = {
+	name = "rus_through_carpatian_mountains"
+	file = "audio/01_europe/RUS/rus_through_carpatian_mountains.ogg"
+	volume = 0.65
+}
 music = {
 	name = "rus_vakht_na_reyne"
 	file = "audio/01_europe/RUS/rus_vakht_na_reyne.ogg"
@@ -106,8 +312,18 @@ music = {
 	volume = 0.65
 }
 music = {
+	name = "sov_tachanka"
+	file = "audio/01_europe/RUS/sov_tachanka.ogg"
+	volume = 0.8
+}
+music = {
 	name = "sov_varshavianka"
 	file = "audio/01_europe/RUS/sov_varshavianka.ogg"
+	volume = 0.65
+}
+music = {
+	name = "vln_mother_anarchy"
+	file = "audio/01_europe/RUS/vln_mother_anarchy.ogg"
 	volume = 0.65
 }
 
@@ -128,14 +344,123 @@ music = {
 	volume = 0.65
 }
 
+### SPR - Spain ###
+music = {
+	name = "spr_marcha_real"
+	file = "audio/01_europe/SPR/spr_marcha_real.ogg"
+	volume = 0.65
+}
+
+### CAN - Canadia ###
+music = {
+	name = "can_anti_fenian_song"
+	file = "audio/02_americas/CAN/can_anti_fenian_song.ogg"
+	volume = 0.65
+}
+music = {
+	name = "can_farewell_to_nova_scotia"
+	file = "audio/02_americas/CAN/can_farewell_to_nova_scotia.ogg"
+	volume = 0.65
+}
+
 ### USA - United States of America ###
+music = {
+	name = "usa_all_aboard_for_dixieland"
+	file = "audio/02_americas/USA/usa_all_aboard_for_dixieland.ogg"
+	volume = 0.65
+}
+music = {
+	name = "usa_america_heres_my_boy"
+	file = "audio/02_americas/USA/usa_america_heres_my_boy.ogg"
+	volume = 0.65
+}
+music = {
+	name = "usa_au_revoir_but_not_goodbye_soldier_boy"
+	file = "audio/02_americas/USA/usa_au_revoir_but_not_goodbye_soldier_boy.ogg"
+	volume = 0.65
+}
+music = {
+	name = "usa_by_the_beautiful_sea"
+	file = "audio/02_americas/USA/usa_by_the_beautiful_sea.ogg"
+	volume = 0.65
+}
 music = {
 	name = "usa_colonel_bogey_march"
 	file = "audio/02_americas/USA/usa_colonel_bogey_march.ogg"
 	volume = 0.65
 }
 music = {
+	name = "usa_columbia_gem_of_the_ocean"
+	file = "audio/02_americas/USA/usa_columbia_gem_of_the_ocean.ogg"
+	volume = 0.65
+}
+music = {
+	name = "usa_for_your_boy_and_my_boy"
+	file = "audio/02_americas/USA/usa_for_your_boy_and_my_boy.ogg"
+	volume = 0.65
+}
+music = {
+	name = "usa_goodbye_broadway_hello_france"
+	file = "audio/02_americas/USA/usa_goodbye_broadway_hello_france.ogg"
+	volume = 0.65
+}
+music = {
+	name = "usa_how_ya_gonna_keep_em_down_on_the_farm"
+	file = "audio/02_americas/USA/usa_how_ya_gonna_keep_em_down_on_the_farm.ogg"
+	volume = 0.65
+}
+music = {
+	name = "usa_i_didnt_raise_my_boy_to_be_a_soldier"
+	file = "audio/02_americas/USA/usa_i_didnt_raise_my_boy_to_be_a_soldier.ogg"
+	volume = 0.65
+}
+music = {
+	name = "usa_i_may_be_gone_for_a_long_long_time"
+	file = "audio/02_americas/USA/usa_i_may_be_gone_for_a_long_long_time.ogg"
+	volume = 0.65
+}
+music = {
+	name = "usa_im_gonna_pin_my_medal_on_the_girl_i_left_behind"
+	file = "audio/02_americas/USA/usa_im_gonna_pin_my_medal_on_the_girl_i_left_behind.ogg"
+	volume = 0.65
+}
+music = {
+	name = "usa_like_washington_crossed_the_delaware"
+	file = "audio/02_americas/USA/usa_like_washington_crossed_the_delaware.ogg"
+	volume = 0.65
+}
+music = {
+	name = "usa_oui_oui_marie"
+	file = "audio/02_americas/USA/usa_oui_oui_marie.ogg"
+	volume = 0.65
+}
+music = {
 	name = "usa_over_there"
 	file = "audio/02_americas/USA/usa_over_there.ogg"
+	volume = 0.65
+}
+music = {
+	name = "usa_say_a_prayer_for_our_boys"
+	file = "audio/02_americas/USA/usa_say_a_prayer_for_our_boys.ogg"
+	volume = 0.65
+}
+music = {
+	name = "usa_silver_bell"
+	file = "audio/02_americas/USA/usa_silver_bell.ogg"
+	volume = 0.65
+}
+music = {
+	name = "usa_the_lights_of_my_home_town"
+	file = "audio/02_americas/USA/usa_the_lights_of_my_home_town.ogg"
+	volume = 0.65
+}
+music = {
+	name = "usa_the_yellow_rose_of_texas"
+	file = "audio/02_americas/USA/usa_the_yellow_rose_of_texas.ogg"
+	volume = 0.65
+}
+music = {
+	name = "usa_when_johnny_comes_marching_home"
+	file = "audio/02_americas/USA/usa_when_johnny_comes_marching_home.ogg"
 	volume = 0.65
 }

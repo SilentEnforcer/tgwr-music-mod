@@ -17,6 +17,27 @@ music = {
 	}
 }
 music = {
+	song = "1812_overture"
+	chance = {
+		base = 0
+		modifier = { add = 1 }
+	}
+}
+music = {
+	song = "autumn_dream"
+	chance = {
+		base = 0
+		modifier = { add = 1	has_war = no }
+	}
+}
+music = {
+	song = "dies_irae"
+	chance = {
+		base = 0
+		modifier = { add = 1	has_war = yes }
+	}
+}
+music = {
 	song = "the_rite_of_spring"
 	chance = {
 		base = 0
@@ -73,6 +94,50 @@ music = {
 }
 ##### Regional #####
 
+### BEL - Belgium ###
+music = {
+	song = "bel_extinction_de_lumieres_en_fantaisie"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = BEL }
+	}
+}
+music = {
+	song = "bel_marche_de_l_artillerie_de_campagne"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = BEL }
+	}
+}
+music = {
+	song = "bel_marche_du_1er_regiment_de_carabiniers_cyclistes"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = BEL }
+	}
+}
+music = {
+	song = "bel_marche_du_1er_regiment_des_lanciers"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = BEL }
+	}
+}
+music = {
+	song = "bel_marche_du_4eme_escadron"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = BEL }
+	}
+}
+music = {
+	song = "bel_marche_du_12eme_regiment"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = BEL }
+	}
+}
+
 ### BUL - Bulgaria ###
 music = {
 	song = "bul_the_battle_has_begun"
@@ -101,7 +166,76 @@ music = {
 	song = "eng_bombed_last_night"
 	chance = {
 		base = 0
+		modifier = {
+			add = 2	
+			original_tag = ENG 
+			has_war_with = GER
+			casualties_k > 100
+		}
+	}
+}
+music = {
+	song = "eng_britain_ask_of_thyself"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			original_tag = ENG 
+			has_war = yes
+		}
+	}
+}
+music = {
+	song = "eng_by_order_of_the_king"
+	chance = {
+		base = 0
 		modifier = { add = 2	original_tag = ENG }
+	}
+}
+music = {
+	song = "eng_heart_of_oak"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = ENG }
+	}
+}
+music = {
+	song = "eng_jerusalem"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			original_tag = ENG 
+			has_war = no
+		}
+	}
+}
+music = {
+	song = "eng_land_of_hope_and_glory"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = ENG }
+	}
+}
+music = {
+	song = "eng_sons_of_the_brave"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = ENG }
+	}
+}
+music = {
+	song = "eng_the_british_grenadiers"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 1
+			original_tag = ENG 
+		}
+		modifier = { 
+			factor = 2	
+			has_war = yes
+		}
 	}
 }
 music = {
@@ -115,7 +249,17 @@ music = {
 	song = "eng_the_laddies_who_fought_and_won"
 	chance = {
 		base = 0
-		modifier = { add = 2	original_tag = ENG }
+		modifier = { 
+			add = 2	
+			original_tag = ENG 
+			OR = {
+				has_war = yes
+				has_country_flag = great_war_winner
+			}
+			NOT = {
+				has_country_flag = great_war_loser
+			}	
+		}
 	}
 }
 
@@ -128,29 +272,125 @@ music = {
 			add = 3
 			has_war = yes
 			original_tag = FRA
+			NOT = {
+				has_idea = FRA_wadai_war
+			}
 		}		
+	}
+}
+music = {
+	song = "fra_ah_ca_ira"
+	chance = {
+		base = 0
+		modifier = {
+			add = 2	
+			original_tag = FRA 
+			has_government = communism
+		}
+	}
+}
+music = {
+	song = "fra_amoureuse"
+	chance = {
+		base = 0
+		modifier = {
+			add = 2	
+			original_tag = FRA 
+			has_war = no
+			NOT = {
+				has_global_flag = great_war_ends
+			}	
+		}
+	}
+}
+music = {
+	song = "fra_chant_du_depart"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = FRA }
+	}
+}
+music = {
+	song = "fra_l_internationale"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 1
+			has_government = communism
+		}
+		modifier = { 
+			factor = 2	
+			original_tag = FRA 
+		}
+	}
+}
+music = {
+	song = "fra_la_marseillaise"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = FRA }
+	}
+}
+music = {
+	song = "fra_la_strasbourgeoise"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			original_tag = FRA 
+			has_war = yes
+			NOT = {
+				has_idea = FRA_wadai_war
+			}	
+		}
 	}
 }
 music = {
 	song = "fra_le_chant_des_africains"
 	chance = {
 		base = 0
-		modifier = { add = 2	original_tag = FRA }
+		modifier = { 
+			add = 2	
+			original_tag = FRA 
+			has_war = yes
+		}
+	}
+}
+music = {
+	song = "fra_le_regiment_de_sambre_et_meuse"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			original_tag = FRA 
+			has_war = yes
+			NOT = {
+				has_idea = FRA_wadai_war
+			}
+		}
 	}
 }
 music = {
 	song = "fra_verdun_on_ne_passe_pas"
 	chance = {
 		base = 0
-		modifier = { add = 2	original_tag = FRA }
+		modifier = { 
+			add = 2	
+			original_tag = FRA 
+			has_war_with = GER
+		}
 	}
 }
 music = {
 	song = "fra_vous_n_aurez_pas_l_alsace_et_la_lorraine"
 	chance = {
 		base = 0
-		modifier = { add = 2	original_tag = FRA }
-	}
+		modifier = { 
+			add = 2	
+			original_tag = FRA 
+			has_war_with = GER
+		}
+	}	
 }
 
 ### GER - Germany ###
@@ -211,12 +451,188 @@ music = {
 		modifier = {
 			add = 2
 			has_war = yes
-			tag = ITA
+			original_tag = ITA
 		}
 	}	
 }
+music = {
+	song = "ita_fantasia_echi_di_trincea"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = ITA }
+	}	
+}
+music = {
+	song = "ita_fratelli_d_italia"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = ITA }
+	}	
+}
+music = {
+	song = "ita_la_leggenda_del_piave"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			original_tag = ITA 
+			has_war_with = AUH
+		}
+	}	
+}
+music = {
+	song = "ita_marcia_reale"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = ITA }
+	}	
+}
+
+### POR - Portugual ###
+music = {
+	song = "por_a_portuguesa"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = ITA }
+	}
+}
+music = {
+	song = "por_hino_da_carta"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = ITA }
+	}
+}
 
 ### RUS - Russia ###
+music = {
+	song = "rus_god_save_the_tsar"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			original_tag = RUS 
+			is_russia_a_monarchy = yes
+		}	
+	}	
+}
+music = {
+	song = "rus_jaeger_march"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 1
+			original_tag = RUS 
+		}	
+		modifier = { 
+			factor = 2
+			OR = {
+				is_in_faction_with = RUS
+				is_subject_of = RUS
+			}
+		}
+		modifier = {
+			add = 2	
+			original_tag = GER
+			OR = {
+				is_in_faction_with = RUS
+				is_subject_of = RUS
+			}	
+		}
+	}	
+}
+music = {
+	song = "rus_march_borodino"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = RUS }	
+	}	
+}
+music = {
+	song = "rus_march_of_pechora_regiment"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = RUS }			
+	}	
+}
+music = {
+	song = "rus_march_of_the_preobrazhensky_regiment"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = RUS }	
+	}	
+}
+music = {
+	song = "rus_march_of_the_sevastopol_infantry_regiment"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = RUS }		
+	}	
+}
+music = {
+	song = "rus_march_of_the_siberian_riflemen"
+	chance = {
+		base = 0
+		modifier = {
+			add = 1
+			original_tag = RUS
+		}	
+		modifier = {
+			add = 2
+			original_tag = RUS
+			has_war = yes
+		}
+		modifier = {
+			add = 2
+			original_tag = RUS
+			OR = {
+				has_civil_war = yes
+				has_war_with = SOV
+			}	
+		}		
+	}	
+}
+music = {
+	song = "rus_semenovsky_regiment_march"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = RUS }		
+	}	
+}
+music = {
+	song = "rus_slavsya"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			original_tag = RUS 
+			is_russia_a_monarchy = yes
+		}	
+	}	
+}
+music = {
+	song = "rus_swan_lake"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			original_tag = RUS  
+			has_war = no	
+		}
+	}
+}
+music = {
+	song = "rus_through_carpatian_mountains"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			original_tag = RUS  
+			has_war_with = AUH
+			has_war_with = GER
+		}
+	}
+}
 music = {
 	song = "rus_vakht_na_reyne"
 	chance = {
@@ -279,6 +695,29 @@ music = {
 			original_tag = SOV
 			has_government = communism
 		}
+		modifier = { 
+			factor = 2	
+			has_war = yes
+		}
+	}
+}
+music = {
+	song = "sov_tachanka"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = SOV
+				original_tag = VLN
+				original_tag = UKR
+			}	
+			has_government = communism
+		}
+		modifier = { 
+			factor = 2	
+			has_war = yes
+		}
 	}
 }
 music = {
@@ -293,7 +732,31 @@ music = {
 			}	
 			OR = {
 				has_government = communism
+				has_country_leader_ideology = socialism
 			}	
+		}
+	}
+}
+music = {
+	song = "vln_mother_anarchy"
+	chance = {
+		base = 0
+		modifier = {
+			add = 2	
+			OR = {
+				original_tag = RUS
+				original_tag = SOV
+				original_tag = VLN
+				original_tag = UKR
+			}	
+			OR = {
+				has_country_leader_ideology = anarchist_communism
+				has_country_leader_ideology = anarcho_syndicalism
+			}	
+		}
+		modifier = { 
+			factor = 2	
+			has_war = yes
 		}
 	}
 }
@@ -321,7 +784,76 @@ music = {
 	}
 }
 
+### SPR - Spain ###
+music = {
+	song = "spr_marcha_real"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = SPR }
+	}
+}
+
+### CAN - Canada ###
+music = {
+	song = "can_anti_fenian_song"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = CAN }
+	}
+}
+music = {
+	song = "can_farewell_to_nova_scotia"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = CAN }
+	}
+}
+
 ### USA - United States of America ###
+music = {
+	song = "usa_all_aboard_for_dixieland"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 0.5	
+			original_tag = USA 
+			has_war = no
+		}
+	}
+}
+music = {
+	song = "usa_america_heres_my_boy"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 0.5	
+			original_tag = USA 
+			has_war = yes
+		}
+	}
+}
+music = {
+	song = "usa_au_revoir_but_not_goodbye_soldier_boy"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 0.5	
+			original_tag = USA 
+			has_war = yes
+		}
+	}
+}
+music = {
+	song = "usa_by_the_beautiful_sea"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 0.5	
+			original_tag = USA 
+			has_war = no
+		}
+	}
+}
 music = {
 	song = "usa_colonel_bogey_march"
 	chance = {
@@ -330,12 +862,181 @@ music = {
 	}
 }
 music = {
-	song = "usa_over_there"
+	song = "usa_columbia_gem_of_the_ocean"
 	chance = {
 		base = 0
 		modifier = { add = 2	original_tag = USA }
 	}
 }
+music = {
+	song = "usa_for_your_boy_and_my_boy"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 0.5	
+			original_tag = USA 
+			has_war = yes
+		}
+	}
+}
+music = {
+	song = "usa_goodbye_broadway_hello_france"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 0.5	
+			original_tag = USA 
+			has_war_together_with = FRA
+		}
+	}
+}
+music = {
+	song = "usa_how_ya_gonna_keep_em_down_on_the_farm"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 0.5	
+			original_tag = USA 
+			has_war = no
+			has_country_flag = great_war_winner
+		}
+	}
+}
+music = {
+	song = "usa_i_didnt_raise_my_boy_to_be_a_soldier"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 0.5	
+			original_tag = USA 
+			has_war = yes
+		}
+	}
+}
+music = {
+	song = "usa_i_may_be_gone_for_a_long_long_time"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 0.5	
+			original_tag = USA 
+			has_war = yes
+		}
+	}
+}
+music = {
+	song = "usa_im_gonna_pin_my_medal_on_the_girl_i_left_behind"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 0.5	
+			original_tag = USA 
+			has_war = yes
+		}
+	}
+}
+music = {
+	song = "usa_like_washington_crossed_the_delaware"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 0.5	
+			original_tag = USA 
+			has_war_with = GER
+		}
+	}
+}
+music = {
+	song = "usa_oui_oui_marie"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 0.5	
+			original_tag = USA 
+			has_war_together_with = FRA
+		}
+	}
+}
+music = {
+	song = "usa_over_there"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			original_tag = USA 
+		}
+		modifier = { 
+			factor = 2	
+			has_war = yes
+		}
+	}
+}
+music = {
+	song = "usa_say_a_prayer_for_our_boys"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 0.5
+			original_tag = USA
+			has_war_with = GER
+		}
+	}
+}
+music = {
+	song = "usa_silver_bell"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 0.5
+			original_tag = USA
+			has_war = no
+		}
+	}
+}
+music = {
+	song = "usa_the_lights_of_my_home_town"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 0.5
+			original_tag = USA
+			has_war = no
+		}
+	}
+}
+music = {
+	song = "usa_the_yellow_rose_of_texas"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = USA }
+	}
+}
+music = {
+	song = "usa_when_johnny_comes_marching_home"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 0.5
+			original_tag = USA
+			has_war_with = GER
+		}
+	}
+}
+music = {
+	song = "usa_when_johnny_comes_marching_home"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			original_tag = USA 
+		}
+		modifier = { 
+			factor = 2	
+			has_war = yes
+		}
+	}
+}
+
 
 ### TUR - Ottoman Empire / Turkey ###
 music = {
