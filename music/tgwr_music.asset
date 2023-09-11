@@ -346,6 +346,48 @@ music = {
 	volume = 0.65
 }
 
+### BRA - Brazil ###
+music = {
+	name = "bra_dobrado_sargento_calhau"
+	file = "audio/02_americas/BRA/bra_dobrado_sargento_calhau.ogg"
+	volume = 0.8
+}
+music = {
+	name = "bra_exulta_oh_brazil"
+	file = "audio/02_americas/BRA/bra_exulta_oh_brazil.ogg"
+	volume = 0.7
+}
+music = {
+	name = "bra_dobrado_sargento_caveira"
+	file = "audio/02_americas/BRA/bra_dobrado_sargento_caveira.ogg"
+	volume = 0.7
+}
+music = {
+	name = "bra_dobrado_o_rei_do_povo"
+	file = "audio/02_americas/BRA/bra_dobrado_o_rei_do_povo.ogg"
+	volume = 0.7
+}
+music = {
+	name = "bra_dobrado_bombardeio_da_bahia"
+	file = "audio/02_americas/BRA/bra_dobrado_bombardeio_da_bahia.ogg"
+	volume = 0.7
+}
+music = {
+	name = "bra_dobrado_182"
+	file = "audio/02_americas/BRA/bra_dobrado_182.ogg"
+	volume = 0.7
+}
+music = {
+	name = "bra_dobrado_207"
+	file = "audio/02_americas/BRA/bra_dobrado_207.ogg"
+	volume = 0.7
+}
+music = {
+	name = "bra_dobrado_220"
+	file = "audio/02_americas/BRA/bra_dobrado_220.ogg"
+	volume = 0.7
+}
+
 ### CAN - Canadia ###
 music = {
 	name = "can_anti_fenian_song"

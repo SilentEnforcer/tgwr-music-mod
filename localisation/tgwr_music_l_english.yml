@@ -95,7 +95,17 @@
  
 ### SPR - Spain ###
  spr_marcha_real: "Marcha Real"
- 
+
+### BRA - Brazil ###
+ bra_dobrado_sargento_calhau: "Dobrado Sargento Calhau"
+ bra_exulta_oh_brazil: "Exulta, oh Brazil!"
+ bra_dobrado_sargento_caveira: "Dobrado Sargento Caveira"
+ bra_dobrado_o_rei_do_povo: "Dobrado O Rei do Povo"
+ bra_dobrado_bombardeio_da_bahia: "Dobrado Bombardeio da Bahia"
+ bra_dobrado_182: "Dobrado 182"
+ bra_dobrado_207: "Dobrado 207"
+ bra_dobrado_220: "Dobrado 220"
+
 ### CAN - Canada ###
  can_anti_fenian_song: "Anti-Fenian Song" 
  can_farewell_to_nova_scotia: "Farewell to Nova Scotia" 

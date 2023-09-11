@@ -794,6 +794,68 @@ music = {
 	}
 }
 
+### BRA - Brazil ###
+music = {
+	song = "bra_dobrado_sargento_calhau"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = BRA }
+	}
+}
+music = {
+	song = "bra_exulta_oh_brazil"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			original_tag = BRA 
+			has_government = neutrality
+		}
+	}
+}
+music = {
+	song = "bra_dobrado_sargento_caveira"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = BRA }
+	}
+}
+music = {
+	song = "bra_dobrado_182"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = BRA }
+	}
+}
+music = {
+	song = "bra_dobrado_207"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = BRA }
+	}
+}
+music = {
+	song = "bra_dobrado_220"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = BRA }
+	}
+}
+music = {
+	song = "bra_dobrado_bombardeio_da_bahia"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = BRA }
+	}
+}
+music = {
+	song = "bra_dobrado_o_rei_do_povo"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = BRA }
+	}
+}
+
 ### CAN - Canada ###
 music = {
 	song = "can_anti_fenian_song"
