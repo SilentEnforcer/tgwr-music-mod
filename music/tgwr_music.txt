@@ -412,7 +412,11 @@ music = {
 	song = "ger_wo_alle_strassen_enden"
 	chance = {
 		base = 0
-		modifier = { add = 2	original_tag = GER }
+		modifier = {
+			add = 4
+			original_tag = GER 
+			casualties_k > 1000
+		}
 	}
 }
 
@@ -493,14 +497,14 @@ music = {
 	song = "por_a_portuguesa"
 	chance = {
 		base = 0
-		modifier = { add = 2	original_tag = ITA }
+		modifier = { add = 2	original_tag = POR }
 	}
 }
 music = {
 	song = "por_hino_da_carta"
 	chance = {
 		base = 0
-		modifier = { add = 2	original_tag = ITA }
+		modifier = { add = 2	original_tag = POR }
 	}
 }
 
@@ -766,18 +770,15 @@ music = {
 	song = "ser_tamo_daleko"
 	chance = {
 		base = 0
-		modifier = { add = 2	original_tag = SER }
+		modifier = { 
+			add = 2	
+			original_tag = SER 
+			has_capitulated = yes
+		}
 	}
 }
 music = {
 	song = "ser_march_on_the_drina"
-	chance = {
-		base = 0
-		modifier = { add = 2	original_tag = SER }
-	}
-}
-music = {
-	song = "ser_town_of_tekerish"
 	chance = {
 		base = 0
 		modifier = { add = 2	original_tag = SER }
