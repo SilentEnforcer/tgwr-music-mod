@@ -436,6 +436,13 @@ music = {
 	}
 }
 music = {
+	song = "gre_marche_selanik"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = GRE }
+	}
+}
+music = {
 	song = "gre_the_liberation_of_serres"
 	chance = {
 		base = 0
@@ -1118,6 +1125,13 @@ music = {
 			original_tag = TUR
 			has_war = no
 		}	
+	}	
+}
+music = {
+	song = "tur_bu_bayrak"
+	chance = {
+		base = 0
+		modifier = { add = 2 original_tag = TUR }
 	}	
 }
 music = {

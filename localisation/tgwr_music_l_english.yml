@@ -58,6 +58,7 @@
 ### GRE - Greece ###
  gre_kleftikos: "Kleftikos"
  gre_march_of_smyrna: "March of Smyrna"
+ gre_marche_selanik: "March of Thessaloniki"
  gre_the_liberation_of_serres: "The Liberation of Serres"
  
 ### ITA - Italy ###
@@ -135,5 +136,6 @@
 
 ### TUR - Ottoman Empire / Turkey ###
  tur_aziziye_marsi: "Aziziye Marşı"
+ tur_bu_bayrak: "Bu Bayrak"
  tur_ceddin_deden: "Ceddin Deden"
  tur_enver_pasa_marsi: "Enver Paşa Marşı"
