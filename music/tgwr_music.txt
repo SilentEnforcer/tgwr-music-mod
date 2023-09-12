@@ -817,6 +817,9 @@ music = {
 			add = 2	
 			original_tag = BRA 
 			has_government = neutrality
+			NOT = {
+				has_cosmetic_tag = BRA_vargas
+			}	
 		}
 	}
 }
