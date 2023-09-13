@@ -507,7 +507,12 @@ music = {
 	volume = 0.65
 }
 
-### TUR - Ottoman Empire / Turkey ###
+### TUR - Ottoman Empire ###
+music = {
+	name = "tur_akdeniz_marsi"
+	file = "audio/03_middle_east/TUR/tur_akdeniz_marsi.ogg"
+	volume = 0.65
+}
 music = {
 	name = "tur_aziziye_marsi"
 	file = "audio/03_middle_east/TUR/tur_aziziye_marsi.ogg"
@@ -524,8 +529,38 @@ music = {
 	volume = 0.65
 }
 music = {
+	name = "tur_cenk_sanatimiz_marsi"
+	file = "audio/03_middle_east/TUR/tur_cenk_sanatimiz_marsi.ogg"
+	volume = 0.65
+}
+music = {
 	name = "tur_enver_pasa_marsi"
 	file = "audio/03_middle_east/TUR/tur_enver_pasa_marsi.ogg"
 	volume = 0.65
 }
+music = {
+	name = "tur_genc_osman"
+	file = "audio/03_middle_east/TUR/tur_genc_osman.ogg"
+	volume = 0.65
+}
+music = {
+	name = "tur_yine_de_sahlaniyor"
+	file = "audio/03_middle_east/TUR/tur_yine_de_sahlaniyor.ogg"
+	volume = 0.65
+}
 
+### TTR - Turkey / Turkish National Movement ###
+music = {
+	name = "ttr_ankara_marsi"
+	file = "audio/03_middle_east/TTR/ttr_ankara_marsi.ogg"
+	volume = 0.65
+}
+music = {
+	name = "ttr_hos_gelisler_ola_mustafa_kemal_pasa"
+	file = "audio/03_middle_east/TTR/ttr_hos_gelisler_ola_mustafa_kemal_pasa.ogg"
+	volume = 0.65
+}
+music = {
+	name = "ttr_sakarya_marsi"
+	file = "audio/03_middle_east/TTR/ttr_sakarya_marsi.ogg"
+	volume = 0.65

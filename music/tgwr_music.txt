@@ -1111,12 +1111,19 @@ music = {
 }
 
 
-### TUR - Ottoman Empire / Turkey ###
+### TUR - Ottoman Empire ###
 music = {
 	song = "ottoman_theme"
 	chance = {
 		base = 0
 		modifier = { add = 2 original_tag = TUR }	
+	}	
+}
+music = {
+	song = "tur_akdeniz_marsi"
+	chance = {
+		base = 0
+		modifier = { add = 2 original_tag = TUR }
 	}	
 }
 music = {
@@ -1152,6 +1159,13 @@ music = {
 	}	
 }
 music = {
+	song = "tur_cenk_sanatimiz_marsi"
+	chance = {
+		base = 0
+		modifier = { add = 2 original_tag = TUR }
+	}	
+}
+music = {
 	song = "tur_enver_pasa_marsi"
 	chance = {
 		base = 0
@@ -1162,5 +1176,43 @@ music = {
 				character = TUR_ismail_enver
 			}
 		}	
+	}	
+}
+music = {
+	song = "tur_genc_osman"
+	chance = {
+		base = 0
+		modifier = { add = 2 original_tag = TUR }
+	}	
+}
+music = {
+	song = "tur_yine_de_sahlaniyor"
+	chance = {
+		base = 0
+		modifier = { add = 2 original_tag = TUR }
+	}	
+}
+
+
+### TTR - Turkey / Turkish National Movement ###
+music = {
+	song = "ttr_ankara_marsi"
+	chance = {
+		base = 0
+		modifier = { add = 2 original_tag = TTR }
+	}	
+}
+music = {
+	song = "ttr_hos_gelisler_ola_mustafa_kemal_pasa"
+	chance = {
+		base = 0
+		modifier = { add = 2 original_tag = TTR }
+	}	
+}
+music = {
+	song = "ttr_sakarya_marsi"
+	chance = {
+		base = 0
+		modifier = { add = 2 original_tag = TTR }
 	}	
 }

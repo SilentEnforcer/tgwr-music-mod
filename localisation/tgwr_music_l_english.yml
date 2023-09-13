@@ -134,8 +134,17 @@
  usa_when_johnny_comes_marching_home: "We Don't Want the Bacon"
  usa_when_johnny_comes_marching_home: "When Johnny Comes Marching Home"
 
-### TUR - Ottoman Empire / Turkey ###
+### TUR - Ottoman Empire ###
+ tur_akdeniz_marsi: "Akdeniz Marşı"
  tur_aziziye_marsi: "Aziziye Marşı"
  tur_bu_bayrak: "Bu Bayrak"
  tur_ceddin_deden: "Ceddin Deden"
+ tur_cenk_sanatimiz_marsi: "Cenk Sanatımız Marşı"
  tur_enver_pasa_marsi: "Enver Paşa Marşı"
+ tur_genc_osman: "Genç Osman"
+ tur_yine_de_sahlaniyor: "Yine de Şahlanıyor"
+
+# TTR - Turkey / Turkish National Movement ###
+ ttr_ankara_marsi: "Ankara Marşı"
+ ttr_hos_gelisler_ola_mustafa_kemal_pasa: "Hoş Gelişler Ola Mustafa Kemal Paşa"
+ ttr_sakarya_marsi: "Sakarya Marşı"
