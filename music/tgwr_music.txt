@@ -1199,7 +1199,7 @@ music = {
 	song = "ttr_ankara_marsi"
 	chance = {
 		base = 0
-		modifier = { add = 2 original_tag = TTR }
+		modifier = { add = 2 tag = TTR }
 	}	
 }
 music = {
@@ -1219,13 +1219,13 @@ music = {
 	song = "ttr_izmir_marsi"
 	chance = {
 		base = 0
-		modifier = { add = 2 original_tag = TTR }
+		modifier = { add = 2 tag = TTR }
 	}	
 }
 music = {
 	song = "ttr_sakarya_marsi"
 	chance = {
 		base = 0
-		modifier = { add = 2 original_tag = TTR }
+		modifier = { add = 2 tag = TTR }
 	}	
 }
