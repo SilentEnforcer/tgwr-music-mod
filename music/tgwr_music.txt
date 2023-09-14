@@ -1206,7 +1206,13 @@ music = {
 	song = "ttr_hos_gelisler_ola_mustafa_kemal_pasa"
 	chance = {
 		base = 0
-		modifier = { add = 2 original_tag = TTR }
+		modifier = { 
+			add = 2 
+			original_tag = TUR 
+			has_country_leader = {
+				character = TUR_mustafa_kemal
+			}
+		}
 	}	
 }
 music = {
