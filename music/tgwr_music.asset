@@ -19,7 +19,7 @@ music = {
 music = {
 	name = "the_rite_of_spring"
 	file = "audio/01_europe/the_rite_of_spring.ogg"
-	volume = 0.65
+	volume = 0.7
 }
 
 ##### Regional #####
@@ -531,7 +531,7 @@ music = {
 music = {
 	name = "tur_cenk_sanatimiz_marsi"
 	file = "audio/03_middle_east/TUR/tur_cenk_sanatimiz_marsi.ogg"
-	volume = 0.65
+	volume = 0.6	
 }
 music = {
 	name = "tur_enver_pasa_marsi"
@@ -541,12 +541,12 @@ music = {
 music = {
 	name = "tur_genc_osman"
 	file = "audio/03_middle_east/TUR/tur_genc_osman.ogg"
-	volume = 0.65
+	volume = 0.6
 }
 music = {
 	name = "tur_yine_de_sahlaniyor"
 	file = "audio/03_middle_east/TUR/tur_yine_de_sahlaniyor.ogg"
-	volume = 0.65
+	volume = 0.6
 }
 
 ### TTR - Turkey / Turkish National Movement ###
