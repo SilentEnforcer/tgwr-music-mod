@@ -247,6 +247,11 @@ music = {
 
 ### RUS - Russia ###
 music = {
+	name = "rus_black_raven"
+	file = "audio/01_europe/RUS/rus_black_raven.ogg"
+	volume = 0.7
+}
+music = {
 	name = "rus_god_save_the_tsar"
 	file = "audio/01_europe/RUS/rus_god_save_the_tsar.ogg"
 	volume = 0.65

@@ -517,6 +517,27 @@ music = {
 
 ### RUS - Russia ###
 music = {
+	song = "rus_black_raven"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 4	
+			OR = {
+				original_tag = RUS 
+				original_tag = DON 
+				original_tag = KUB 
+				original_tag = SOV
+			}	
+			OR = {
+				has_civil_war = yes
+				has_war_with = SOV
+				has_war_with = RUS
+				casualties_k > 1000
+			}	
+		}	
+	}	
+}
+music = {
 	song = "rus_god_save_the_tsar"
 	chance = {
 		base = 0
