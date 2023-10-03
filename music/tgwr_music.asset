@@ -297,6 +297,11 @@ music = {
 	volume = 0.65
 }
 music = {
+	name = "rus_strazha_na_reyne"
+	file = "audio/01_europe/RUS/rus_strazha_na_reyne.ogg"
+	volume = 0.65
+}
+music = {
 	name = "rus_swan_lake"
 	file = "audio/01_europe/RUS/rus_swan_lake.ogg"
 	volume = 0.65
@@ -307,8 +312,8 @@ music = {
 	volume = 0.65
 }
 music = {
-	name = "rus_vakht_na_reyne"
-	file = "audio/01_europe/RUS/rus_vakht_na_reyne.ogg"
+	name = "rus_vo_sadu_li_v_ogorode"
+	file = "audio/01_europe/RUS/rus_vo_sadu_li_v_ogorode.ogg"
 	volume = 0.65
 }
 music = {
