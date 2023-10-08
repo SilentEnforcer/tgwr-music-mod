@@ -429,9 +429,10 @@ music = {
 	chance = {
 		base = 0
 		modifier = { 
-		add = 2	
-		original_tag = GER
-		has_war_with = FRA
+			add = 2	
+			original_tag = GER
+			has_war_with = FRA
+		}
 	}
 }
 music = {

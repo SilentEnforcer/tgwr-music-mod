@@ -226,6 +226,11 @@ music = {
 	volume = 0.65
 }
 music = {
+	name = "ger_im_wald_im_grunen_walde"
+	file = "audio/01_europe/GER/ger_im_wald_im_grunen_walde.ogg"
+	volume = 0.65
+}
+music = {
 	name = "ger_in_einem_polenstadtchen"
 	file = "audio/01_europe/GER/ger_in_einem_polenstadtchen.ogg"
 	volume = 0.65
@@ -257,12 +262,22 @@ music = {
 }
 music = {
 	name = "ger_wenn_die_marschieren"
-	file = "audio/01_europe/GER/ger_wenn_die_marschieren.ogg"
+	file = "audio/01_europe/GER/ger_wenn_wir_marschieren.ogg"
 	volume = 0.65
 }
 music = {
 	name = "ger_wo_alle_strassen_enden"
 	file = "audio/01_europe/GER/ger_wo_alle_strassen_enden.ogg"
+	volume = 0.65
+}
+music = {
+	name = "ger_yorckscher_marsch"
+	file = "audio/01_europe/GER/ger_yorckscher_marsch.ogg"
+	volume = 0.65
+}
+music = {
+	name = "ger_zehntausend_mann_die_zogen_ins_manover"
+	file = "audio/01_europe/GER/ger_zehntausend_mann_die_zogen_ins_manover.ogg"
 	volume = 0.65
 }
 
