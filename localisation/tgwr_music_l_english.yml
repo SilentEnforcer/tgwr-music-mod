@@ -14,6 +14,12 @@
 ##### Cultural  Regions #####
 #############################
 
+### AUH - Austria-Hungary ###
+ auh_deutschmeister_regimentsmarsch: "Deutschmeister-Regimentsmarsch"
+ auh_egerlander_marsch: "Egerländer Marsch"
+ auh_erzherzog_albrecht_marsch: "Erzherzog Albrecht Marsch"
+ auh_unter_dem_doppeladler: "Unter dem Doppeladler"
+
 ### BEL - Belgium ###
  bel_extinction_de_lumieres_en_fantaisie: "Extinction de lumières en fantaisie"
  bel_marche_de_l_artillerie_de_campagne: "Marche de l'Artillerie de Campagne"
@@ -52,8 +58,22 @@
 
 ### GER - Germany ###
  ger_argonnerwaldlied: "Argonnerwaldlied"
+ ger_askari_klange: "Askari-Klänge"
  ger_die_wacht_am_rhein: "Die Wacht am Rhein"
+ ger_fehrbelliner_reitermarsch: "Fehrbelliner Reitermarsch"
+ ger_heia_safari: "Heia Safari"
+ ger_ich_bin_ein_deutscher_kennt_ihr_meine_farben: "Ich bin ein Deutscher, kennt ich meine Farben?"
+ ger_im_wald_im_grunen_walde: "Im Wald, Im Grünen Walde"
+ ger_in_einem_polenstadtchen: "In einem Polenstädtchen"
+ ger_muss_i_denn: "Muss i denn"
+ ger_preusens_gloria: "Preußens Gloria"
+ ger_schon_war_die_zeit_fur_uns_in_afrika: "Schön war die Zeit für uns in Afrika"
+ ger_unsere_marine: "Unsere Marine"
+ ger_wenn_die_soldaten: "Wenn die Soldaten"
+ ger_wenn_wir_marschieren: "Wenn wir Marschieren"
  ger_wo_alle_strassen_enden: "Wo alle Straßen enden"
+ ger_yorckscher_marsch: "Yorckscher Marsch"
+ ger_zehntausend_mann_die_zogen_ins_manover: "Zehntausend Mann die zogen ins Manöver"
 
 ### GRE - Greece ###
  gre_kleftikos: "Kleftikos"
