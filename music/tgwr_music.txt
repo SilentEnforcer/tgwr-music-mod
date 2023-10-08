@@ -425,6 +425,13 @@ music = {
 
 ### GER - Germany ###
 music = {
+	song = "ger_alter_jagermarsch"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = GER }
+	}
+}
+music = {
 	song = "ger_argonnerwaldlied"
 	chance = {
 		base = 0
