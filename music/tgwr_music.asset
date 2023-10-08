@@ -41,6 +41,11 @@ music = {
 	volume = 0.65
 }
 music = {
+	name = "auh_karntner_gebirgsschutzenmarsch"
+	file = "audio/01_europe/AUH/auh_karntner_gebirgsschutzenmarsch.ogg"
+	volume = 0.65
+}
+music = {
 	name = "auh_unter_der_admiralsflagge"
 	file = "audio/01_europe/AUH/auh_unter_der_admiralsflagge.ogg"
 	volume = 0.65

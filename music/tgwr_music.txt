@@ -117,6 +117,13 @@ music = {
 	}
 }
 music = {
+	song = "auh_karntner_gebirgsschutzenmarsch"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = AUH }
+	}
+}
+music = {
 	song = "auh_unter_dem_doppeladler"
 	chance = {
 		base = 0
