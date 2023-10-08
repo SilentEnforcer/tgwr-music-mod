@@ -41,11 +41,15 @@ music = {
 	volume = 0.65
 }
 music = {
+	name = "auh_unter_der_admiralsflagge"
+	file = "audio/01_europe/AUH/auh_unter_der_admiralsflagge.ogg"
+	volume = 0.65
+}
+music = {
 	name = "auh_unter_dem_doppeladler"
 	file = "audio/01_europe/AUH/auh_unter_dem_doppeladler.ogg"
 	volume = 0.65
 }
-
 ### BEL - Belgium ###
 music = {
 	name = "bel_extinction_de_lumieres_en_fantaisie"

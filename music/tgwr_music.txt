@@ -123,6 +123,13 @@ music = {
 		modifier = { add = 2	original_tag = AUH }
 	}
 }
+music = {
+	song = "auh_unter_der_admiralsflagge"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = AUH }
+	}
+}
 
 ### BEL - Belgium ###
 music = {
