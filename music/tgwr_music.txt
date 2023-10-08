@@ -520,7 +520,7 @@ music = {
 	}
 }
 music = {
-	song = "ger_wenn_die_marschieren"
+	song = "ger_wenn_wir_marschieren"
 	chance = {
 		base = 0
 		modifier = { add = 2	original_tag = GER }
