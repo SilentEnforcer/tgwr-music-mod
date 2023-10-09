@@ -1268,7 +1268,7 @@ music = {
 	}
 }
 music = {
-	song = "usa_when_johnny_comes_marching_home"
+	song = "usa_we_dont_want_the_bacon"
 	chance = {
 		base = 0
 		modifier = { 
