@@ -2,11 +2,6 @@
 
 ### General ###
 music = {
-	name = "1812_overture"
-	file = "audio/01_europe/1812_overture.ogg"
-	volume = 0.7
-}
-music = {
 	name = "autumn_dream"
 	file = "audio/01_europe/autumn_dream.ogg"
 	volume = 0.7
