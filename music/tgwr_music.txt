@@ -177,6 +177,42 @@ music = {
 
 ### BUL - Bulgaria ###
 music = {
+	song = "bul_bozhe_tsarya_ni_pazi"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			original_tag = BUL 
+			NOT = {
+				has_government = communism
+				has_cosmetic_tag = BUL_radomir_democratic
+				has_cosmetic_tag = BUL_zveno_bulgaria_neutrality
+			}	
+		}
+	}
+}
+music = {
+	song = "bul_shumi_maritza"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = BUL }
+	}
+}
+music = {
+	song = "bul_stani_stani_junak_balkanski"
+	chance = {
+		base = 0
+		modifier = {
+			add = 1
+			original_tag = BUL 
+		}
+		modifier = {
+			factor = 4
+			has_war_with = TUR
+		}	
+	}
+}
+music = {
 	song = "bul_the_battle_has_begun"
 	chance = {
 		base = 0
@@ -957,18 +993,120 @@ music = {
 
 ### SER - Serbia ###
 music = {
-	song = "ser_tamo_daleko"
+	song = "ser_hej_trubacu_s_bujne_drine"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = SER }
+	}
+}
+music = {
+	song = "ser_igrale_se_delije"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = SER }
+	}
+}
+music = {
+	song = "ser_ko_to_kaze_srbija_je_mala"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = SER }
+	}
+}
+music = {
+	song = "ser_krece_se_lada_francuska"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 4	
+			original_tag = SER 
+			has_capitulated = yes
+			is_in_faction_with = FRA
+		}
+	}
+}
+music = {
+	song = "ser_march_on_the_drina"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = SER }
+	}
+}
+music = {
+	song = "ser_mars_vojvode_stepe_stepanovica"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = SER }
+	}
+}
+music = {
+	song = "ser_marsirala_kralja_petra_garda"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = SER }
+	}
+}
+music = {
+	song = "ser_nizamski_rastanak"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = SER }
+		modifier = { add = 1	original_tag = TUR }
+	}
+}
+music = {
+	song = "ser_oj_moravo_mars"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = SER }
+	}
+}
+music = {
+	song = "ser_oj_srbijo_mila_mati"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = SER }
+	}
+}
+music = {
+	song = "ser_rado_ide_srbin_u_vojnike"
 	chance = {
 		base = 0
 		modifier = { 
 			add = 2	
+			original_tag = SER 
+			has_war = yes
+			has_capitulated = no
+		}
+	}
+}
+music = {
+	song = "ser_stigo_svaba_do_dunava"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = SER }
+	}
+}
+music = {
+	song = "ser_tamo_daleko"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 4	
 			original_tag = SER 
 			has_capitulated = yes
 		}
 	}
 }
 music = {
-	song = "ser_march_on_the_drina"
+	song = "ser_tobdzijsko_kolo"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = SER }
+	}
+}
+music = {
+	song = "ser_trubni_znak_za_povecerje_srpske_vojske"
 	chance = {
 		base = 0
 		modifier = { add = 2	original_tag = SER }

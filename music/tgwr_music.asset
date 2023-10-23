@@ -84,6 +84,21 @@ music = {
 
 ### BUL - Bulgaria ###
 music = {
+	name = "bul_bozhe_tsarya_ni_pazi"
+	file = "audio/01_europe/BUL/bul_bozhe_tsarya_ni_pazi.ogg"
+	volume = 0.65
+}
+music = {
+	name = "bul_shumi_maritza"
+	file = "audio/01_europe/BUL/bul_shumi_maritza.ogg"
+	volume = 0.65
+}
+music = {
+	name = "bul_stani_stani_junak_balkanski"
+	file = "audio/01_europe/BUL/bul_stani_stani_junak_balkanski.ogg"
+	volume = 0.65
+}
+music = {
 	name = "bul_the_battle_has_begun"
 	file = "audio/01_europe/BUL/bul_the_battle_has_begun.ogg"
 	volume = 0.65
@@ -445,13 +460,83 @@ music = {
 
 ### SER - Serbia ###
 music = {
-	name = "ser_tamo_daleko"
-	file = "audio/01_europe/SER/ser_tamo_daleko.ogg"
+	name = "ser_hej_trubacu_s_bujne_drine"
+	file = "audio/01_europe/SER/ser_hej_trubacu_s_bujne_drine.ogg"
+	volume = 0.65
+}
+music = {
+	name = "ser_igrale_se_delije"
+	file = "audio/01_europe/SER/ser_igrale_se_delije.ogg"
+	volume = 0.65
+}
+music = {
+	name = "ser_ko_to_kaze_srbija_je_mala"
+	file = "audio/01_europe/SER/ser_ko_to_kaze_srbija_je_mala.ogg"
+	volume = 0.65
+}
+music = {
+	name = "ser_kolo_32_klase"
+	file = "audio/01_europe/SER/ser_kolo_32_klase.ogg"
+	volume = 0.65
+}
+music = {
+	name = "ser_krece_se_lada_francuska"
+	file = "audio/01_europe/SER/ser_krece_se_lada_francuska.ogg"
 	volume = 0.65
 }
 music = {
 	name = "ser_march_on_the_drina"
 	file = "audio/01_europe/SER/ser_march_on_the_drina.ogg"
+	volume = 0.65
+}
+music = {
+	name = "ser_mars_vojvode_stepe_stepanovica"
+	file = "audio/01_europe/SER/ser_mars_vojvode_stepe_stepanovica.ogg"
+	volume = 0.65
+}
+music = {
+	name = "ser_marsirala_kralja_petra_garda"
+	file = "audio/01_europe/SER/ser_marsirala_kralja_petra_garda.ogg"
+	volume = 0.7
+}
+music = {
+	name = "ser_nizamski_rastanak"
+	file = "audio/01_europe/SER/ser_nizamski_rastanak.ogg"
+	volume = 0.65
+}
+music = {
+	name = "ser_oj_moravo_mars"
+	file = "audio/01_europe/SER/ser_oj_moravo_mars.ogg"
+	volume = 0.65
+}
+music = {
+	name = "ser_oj_srbijo_mila_mati"
+	file = "audio/01_europe/SER/ser_oj_srbijo_mila_mati.ogg"
+	volume = 0.65
+}
+music = {
+	name = "ser_rado_ide_srbin_u_vojnike"
+	file = "audio/01_europe/SER/ser_rado_ide_srbin_u_vojnike.ogg"
+	volume = 0.65
+}
+music = {
+	name = "ser_stigo_svaba_do_dunava"
+	file = "audio/01_europe/SER/ser_stigo_svaba_do_dunava.ogg"
+	volume = 0.65
+}
+music = {
+	name = "ser_tamo_daleko"
+	file = "audio/01_europe/SER/ser_tamo_daleko.ogg"
+	volume = 0.65
+}
+music = {
+	name = "ser_tobdzijsko_kolo"
+	file = "audio/01_europe/SER/ser_tobdzijsko_kolo.ogg"
+	volume = 0.65
+}
+music = {
+	name = "ser_trubni_znak_za_povecerje_srpske_vojske"
+	file = "audio/01_europe/SER/ser_trubni_znak_za_povecerje_srpske_vojske.ogg"
 	volume = 0.65
 }
 
