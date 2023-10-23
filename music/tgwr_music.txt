@@ -226,6 +226,27 @@ music = {
 		modifier = { add = 2	original_tag = BUL }
 	}
 }
+music = {
+	song = "bul_velik_e_nashijat_vojnik"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = BUL }
+	}
+}
+music = {
+	song = "bul_vjatr_eci_balkan_stene"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = BUL }
+	}
+}
+music = {
+	song = "bul_vrvi_narode_vzrodeni"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = BUL }
+	}
+}
 
 ### ENG - United Kingdom ###
 music = {

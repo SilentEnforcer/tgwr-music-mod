@@ -108,6 +108,21 @@ music = {
 	file = "audio/01_europe/BUL/bul_tih_byal_dunav.ogg"
 	volume = 0.65
 }
+music = {
+	name = "bul_velik_e_nashijat_vojnik"
+	file = "audio/01_europe/BUL/bul_velik_e_nashijat_vojnik.ogg"
+	volume = 0.65
+}
+music = {
+	name = "bul_vjatr_eci_balkan_stene"
+	file = "audio/01_europe/BUL/bul_vjatr_eci_balkan_stene.ogg"
+	volume = 0.65
+}
+music = {
+	name = "bul_vrvi_narode_vzrodeni"
+	file = "audio/01_europe/BUL/bul_vrvi_narode_vzrodeni.ogg"
+	volume = 0.65
+}
 
 ### ENG - United Kingdom ###
 music = {
