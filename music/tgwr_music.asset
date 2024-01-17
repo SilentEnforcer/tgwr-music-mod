@@ -16,6 +16,11 @@ music = {
 	file = "audio/01_europe/the_rite_of_spring.ogg"
 	volume = 0.7
 }
+music = {
+	name = "mahler_symphony_5"
+	file = "audio/01_europe/mahler_symphony_5.ogg"
+	volume = 0.7
+}
 
 ##### Regional #####
 

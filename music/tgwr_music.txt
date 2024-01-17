@@ -11,8 +11,14 @@ music = {
 		}	
 		modifier = {
 			add = 3
-			has_war = yes
-			tag = AUH
+			is_russian_tag = yes
+			OR = {
+				AND = {
+					tag = SOV
+					has_war = yes
+				}
+				has_war_with = SOV
+			}
 		}		
 	}
 }
@@ -83,6 +89,20 @@ music = {
 			add = 0.5
 			is_russian_tag = yes
 		}
+	}
+}
+music = {
+	song = "mahler_symphony_5"
+	chance = {
+		base = 0
+		modifier = {
+			add = 0.5
+		}	
+		modifier = {
+			add = 3
+			has_war = yes
+			tag = AUH
+		}		
 	}
 }
 ##### Regional #####
