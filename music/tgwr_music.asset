@@ -200,7 +200,7 @@ music = {
 music = {
 	name = "fra_l_internationale"
 	file = "audio/01_europe/FRA/fra_l_internationale.ogg"
-	volume = 0.65
+	volume = 0.6
 }
 music = {
 	name = "fra_la_marseillaise"
@@ -408,6 +408,16 @@ music = {
 	volume = 0.65
 }
 music = {
+	name = "rus_march_of_the_drozdovsky_regiment"
+	file = "audio/01_europe/RUS/rus_march_of_the_drozdovsky_regiment.ogg"
+	volume = 0.65
+}
+music = {
+	name = "rus_march_of_the_kornilov_regiment"
+	file = "audio/01_europe/RUS/rus_march_of_the_kornilov_regiment.ogg"
+	volume = 0.65
+}
+music = {
 	name = "rus_march_of_the_preobrazhensky_regiment"
 	file = "audio/01_europe/RUS/rus_march_of_the_preobrazhensky_regiment.ogg"
 	volume = 0.65
@@ -420,6 +430,11 @@ music = {
 music = {
 	name = "rus_march_of_the_siberian_riflemen"
 	file = "audio/01_europe/RUS/rus_march_of_the_siberian_riflemen.ogg"
+	volume = 0.65
+}
+music = {
+	name = "rus_not_for_me_comes_spring"
+	file = "audio/01_europe/RUS/rus_not_for_me_comes_spring.ogg"
 	volume = 0.65
 }
 music = {
@@ -458,14 +473,29 @@ music = {
 	volume = 0.65
 }
 music = {
+	name = "sov_chapaev_the_hero_strolled_the_urals"
+	file = "audio/01_europe/RUS/sov_chapaev_the_hero_strolled_the_urals.ogg"
+	volume = 0.65
+}
+music = {
 	name = "sov_march_of_the_red_cavalry"
 	file = "audio/01_europe/RUS/sov_march_of_the_red_cavalry.ogg"
-	volume = 0.65
+	volume = 0.6
 }
 music = {
 	name = "sov_tachanka"
 	file = "audio/01_europe/RUS/sov_tachanka.ogg"
 	volume = 0.8
+}
+music = {
+	name = "sov_the_red_army_is_the_strongest"
+	file = "audio/01_europe/RUS/sov_the_red_army_is_the_strongest.ogg"
+	volume = 0.75
+}
+music = {
+	name = "sov_through_the_valleys_and_over_the_hills"
+	file = "audio/01_europe/RUS/sov_through_the_valleys_and_over_the_hills.ogg"
+	volume = 0.65
 }
 music = {
 	name = "sov_varshavianka"
@@ -790,3 +820,4 @@ music = {
 	name = "ttr_sakarya_marsi"
 	file = "audio/03_middle_east/TTR/ttr_sakarya_marsi.ogg"
 	volume = 0.65
+}	

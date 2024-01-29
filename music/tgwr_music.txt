@@ -744,15 +744,10 @@ music = {
 	chance = {
 		base = 0
 		modifier = { 
-			add = 3	
+			add = 3
+			is_russian_tag = yes 	
 			OR = {
-				is_russian_tag = yes 
-				original_tag = DON 
-				original_tag = KUB 
-			}	
-			OR = {
-				has_civil_war = yes
-				has_war_with = RUS
+				is_in_russian_civil_war = yes
 				casualties_k > 1000
 			}	
 		}	
@@ -777,10 +772,7 @@ music = {
 			add = 1
 			is_russian_tag = yes 
 			NOT = {
-				AND = {
-					tag = SOV
-					has_government = communism
-				}	
+				has_government = communism	
 			}
 		}	
 		modifier = { 
@@ -808,10 +800,7 @@ music = {
 			add = 2	
 			is_russian_tag = yes 
 			NOT = {
-				AND = {
-					tag = SOV
-					has_government = communism
-				}	
+				has_government = communism	
 			}	
 		}
 	}	
@@ -824,11 +813,62 @@ music = {
 			add = 2	
 			is_russian_tag = yes 
 			NOT = {
-				AND = {
-					tag = SOV
-					has_government = communism
-				}	
+				has_government = communism	
 			}	
+		}
+	}	
+}
+music = {
+	song = "rus_march_of_the_drozdovsky_regiment"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			is_russian_tag = yes 
+			has_global_flag = russian_civil_war
+			NOT = {
+				has_government = communism	
+			}	
+		}
+		modifier = { 
+			factor = 1.5
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			RUS_mikhail_drozdovsky = {
+				OR = {
+					is_unit_leader = yes
+					is_country_leader = yes
+				}			
+			}
+		}
+	}	
+}
+music = {
+	song = "rus_march_of_the_kornilov_regiment"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			is_russian_tag = yes 
+			has_global_flag = russian_civil_war
+			NOT = {
+				has_government = communism	
+			}	
+		}
+		modifier = { 
+			factor = 1.5
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			RUS_lavr_kornilov = {
+				OR = {
+					is_unit_leader = yes
+					is_country_leader = yes
+				}			
+			}
 		}
 	}	
 }
@@ -840,10 +880,7 @@ music = {
 			add = 2	
 			is_russian_tag = yes 
 			NOT = {
-				AND = {
-					tag = SOV
-					has_government = communism
-				}	
+				has_government = communism	
 			}	
 		}
 	}	
@@ -856,10 +893,7 @@ music = {
 			add = 2	
 			is_russian_tag = yes 
 			NOT = {
-				AND = {
-					tag = SOV
-					has_government = communism
-				}	
+				has_government = communism	
 			}	
 		}
 	}	
@@ -890,12 +924,9 @@ music = {
 			}
 		}
 		modifier = {
-			add = 2
+			factor = 2
 			is_russian_tag = yes
-			OR = {
-				has_civil_war = yes
-				has_war_with = SOV
-			}	
+			is_in_russian_civil_war = yes
 		}		
 		modifier = {
 			add = 2
@@ -911,10 +942,7 @@ music = {
 			add = 2	
 			is_russian_tag = yes 
 			NOT = {
-				AND = {
-					tag = SOV
-					has_government = communism
-				}	
+				has_government = communism
 			}	
 		}		
 	}	
@@ -925,7 +953,7 @@ music = {
 		base = 0
 		modifier = { 
 			add = 2	
-			is_russian_tag = yes 
+			tag = RUS
 			is_russia_a_monarchy = yes
 		}	
 	}	
@@ -936,7 +964,7 @@ music = {
 		base = 0
 		modifier = { 
 			add = 2	
-			is_russian_tag = yes  
+			tag = RUS
 			is_russia_a_monarchy = yes
 			OR = {
 				is_in_faction_with = GER
@@ -992,10 +1020,7 @@ music = {
 			add = 2
 			is_russian_tag = yes
 			NOT = {
-				AND = {
-					tag = SOV
-					has_government = communism
-				}	
+				has_government = communism	
 			}	
 		}
 		modifier = {
@@ -1023,8 +1048,27 @@ music = {
 		base = 0
 		modifier = { 
 			add = 2	
-			tag = SOV
-			has_government = communism
+			is_russian_tag = yes
+			has_country_leader_ideology = vanguardism
+		}
+	}
+}
+music = {
+	song = "sov_chapaev_the_hero_strolled_the_urals"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			is_russian_tag = yes
+			has_country_leader_ideology = vanguardism	
+		}
+		modifier = { 
+			factor = 1.5
+			has_war = yes
+		}
+		modifier = {
+			factor = 1.5
+			has_war_with = UCH
 		}
 	}
 }
@@ -1034,8 +1078,8 @@ music = {
 		base = 0
 		modifier = { 
 			add = 2	
-			tag = SOV
-			has_government = communism
+			is_russian_tag = yes
+			has_country_leader_ideology = vanguardism
 		}
 		modifier = { 
 			factor = 2	
@@ -1063,14 +1107,54 @@ music = {
 	}
 }
 music = {
+	song = "sov_the_red_army_is_the_strongest"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			is_russian_tag = yes
+			has_country_leader_ideology = vanguardism
+		}
+		modifier = { 
+			factor = 2	
+			has_war = yes
+		}
+		modifier = {
+			factor = 2	
+			any_enemy_country = {
+				has_country_leader = {
+					character = RUS_pyotr_wrangel
+				}
+			}
+		}
+	}
+}
+music = {
+	song = "sov_through_the_valleys_and_over_the_hills"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			is_russian_tag = yes
+			has_country_leader_ideology = vanguardism
+		}
+		modifier = { 
+			factor = 2	
+			has_war = yes
+		}
+		modifier = {
+			factor = 2	
+			has_war_with = FER
+		}
+	}
+}
+music = {
 	song = "sov_varshavianka"
 	chance = {
 		base = 0
 		modifier = { 
 			add = 2	
-			OR = {
-				is_russian_tag = yes
-			}	
+			is_russian_tag = yes
 			OR = {
 				has_government = communism
 				has_country_leader_ideology = socialism
