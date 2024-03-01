@@ -1744,3 +1744,14 @@ music = {
 		modifier = { add = 2 tag = TTR }
 	}	
 }
+
+### PER - Persia ###
+music = {
+	song = "per_salame_shah"
+	chance = {
+		base = 0
+		modifier = { 
+
+		}
+	}	
+}

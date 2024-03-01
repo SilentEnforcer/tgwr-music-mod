@@ -821,3 +821,10 @@ music = {
 	file = "audio/03_middle_east/TTR/ttr_sakarya_marsi.ogg"
 	volume = 0.65
 }	
+
+### PER - Persia ###
+music = {
+	name = "per_salame_shah"
+	file = "audio/03_middle_east/PER/per_salame_shah.ogg"
+	volume = 0.65
+}	
