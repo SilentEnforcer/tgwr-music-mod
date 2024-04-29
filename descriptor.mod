@@ -1,6 +1,6 @@
 name="The Great War Redux Music"
 dependencies={
-	"The Great War Redux - Balkan Powder Keg"
+	"The Great War Redux"
 }
 tags={
 	"Sound"
