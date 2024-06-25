@@ -836,11 +836,16 @@ music = {
 		}
 		modifier = {
 			factor = 2
-			RUS_mikhail_drozdovsky = {
-				OR = {
-					is_unit_leader = yes
-					is_country_leader = yes
-				}			
+			if = {
+				limit = {
+					has_character = RUS_mikhail_drozdovsky
+				}	
+				RUS_mikhail_drozdovsky = {
+					OR = {
+						is_unit_leader = yes
+						is_country_leader = yes
+					}			
+				}
 			}
 		}
 	}	
@@ -863,12 +868,17 @@ music = {
 		}
 		modifier = {
 			factor = 2
-			RUS_lavr_kornilov = {
-				OR = {
-					is_unit_leader = yes
-					is_country_leader = yes
-				}			
-			}
+			if = {
+				limit = {
+					has_character = RUS_lavr_kornilov
+				}	
+				RUS_lavr_kornilov = {
+					OR = {
+						is_unit_leader = yes
+						is_country_leader = yes
+					}			
+				}
+			}	
 		}
 	}	
 }
