@@ -1157,7 +1157,7 @@ music = {
 			is_russian_tag = yes
 			OR = {
 				has_government = communism
-				has_country_leader_ideology = socialism
+				has_country_leader_ideology = social_democracy
 			}	
 		}
 	}
@@ -1174,7 +1174,7 @@ music = {
 				original_tag = UKR
 			}	
 			OR = {
-				has_country_leader_ideology = anarchist_communism
+				has_country_leader_ideology = anarchism
 				has_country_leader_ideology = anarcho_syndicalism
 			}	
 		}
