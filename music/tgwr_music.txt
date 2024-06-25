@@ -1760,7 +1760,7 @@ music = {
 	chance = {
 		base = 0
 		modifier = { 
-			modifier = { add = 2 original_tag = PER }
+			add = 2 original_tag = PER
 		}
 	}	
 }
@@ -1769,7 +1769,7 @@ music = {
 	chance = {
 		base = 0
 		modifier = { 
-			modifier = { add = 2 original_tag = PER }
+			add = 2 original_tag = PER
 		}
 	}	
 }
@@ -1778,7 +1778,7 @@ music = {
 	chance = {
 		base = 0
 		modifier = { 
-			modifier = { add = 2 original_tag = PER }
+			add = 2 original_tag = PER
 		}
 	}	
 }
@@ -1787,7 +1787,7 @@ music = {
 	chance = {
 		base = 0
 		modifier = { 
-			modifier = { add = 2 original_tag = PER }
+			add = 2 original_tag = PER
 		}
 	}	
 }
