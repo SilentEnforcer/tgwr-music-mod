@@ -1625,6 +1625,15 @@ music = {
 	}
 }
 
+### Arabia ###
+music = {
+	song = "jadaka_al_ghaithu"
+	chance = {
+		base = 0
+		modifier = { add = 2 is_arab_tag = yes }	
+	}	
+}
+
 
 ### TUR - Ottoman Empire ###
 music = {

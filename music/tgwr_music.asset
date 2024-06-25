@@ -758,6 +758,13 @@ music = {
 	volume = 0.65
 }
 
+### Arabia ###
+music = {
+	name = "jadaka_al_ghaithu"
+	file = "audio/03_middle_east/jadaka_al_ghaithu.ogg"
+	volume = 0.65
+}
+
 ### TUR - Ottoman Empire ###
 music = {
 	name = "tur_akdeniz_marsi"
