@@ -1,13 +1,13 @@
-﻿l_english:
+﻿l_russian:
 
 #############################
 #####      Generic      #####
 #############################
 
 ### General ###
- autumn_dream: "Autumn Dream"
+ autumn_dream: "Осенний сон"
  dies_irae: "Dies irae"
- the_rite_of_spring: "The Rite of Spring"
+ the_rite_of_spring: "Весна священная"
  mahler_symphony_5: "Mahler Symphony N°5"
 
 #############################
@@ -31,14 +31,14 @@
  bel_marche_du_12eme_regiment: "Marche du 12ème Régiment de Ligne «Prince Léopold»"
 
 ### BUL - Bulgaria ###
- bul_bozhe_tsarya_ni_pazi: "Bozhe Tsarya ni Pazi"
- bul_shumi_maritza: "Shumi Maritza"
- bul_stani_stani_junak_balkanski: "Stani, stani, junak balkanski!"
- bul_the_battle_has_begun: "The Battle Has Begun!"
- bul_tih_byal_dunav: "Tih Byal Dunav"
- bul_velik_e_nashijat_vojnik: "Velik e nashijat vojnik"
- bul_vjatr_eci_balkan_stene: "Vjatr eci balkan stene"
- bul_vrvi_narode_vzrodeni: "Vrvi, narode vzrodeni"
+ bul_bozhe_tsarya_ni_pazi: "Боже Царя ни Пази"
+ bul_shumi_maritza: "Шуми Марица"
+ bul_stani_stani_junak_balkanski: "Стани, стани, юнак балкански!"
+ bul_the_battle_has_begun: "Боят настана!"
+ bul_tih_byal_dunav: "Тих бял Дунав"
+ bul_velik_e_nashijat_vojnik: "Велик е нашият войник"
+ bul_vjatr_eci_balkan_stene: "Вятър ечи, балкан стене"
+ bul_vrvi_narode_vzrodeni: "Върви, народе възродени"
 
 ### ENG - United Kingdom ###
  eng_bombed_last_night: "Bombed Last Night"
@@ -113,31 +113,31 @@
  rom_treceti_batalioane_romane_carpatii: "Treceţi Batalioane Române Carpaţii"
 
 ### RUS - Russia ###
- rus_black_raven: "Black Raven"
- rus_god_save_the_tsar: "God Save the Tsar!"
- rus_jaeger_march: "Jaeger March"
- rus_march_borodino: "March Borodino"
- rus_march_of_pechora_regiment: "March of Pechora Regiment"
- rus_march_of_the_drozdovsky_regiment: "March of the Drozdovsky Regiment"
- rus_march_of_the_kornilov_regiment: "March of the Kornilov Regiment"
- rus_march_of_the_preobrazhensky_regiment: "March of the Preobrazhensky Regiment"
- rus_march_of_the_sevastopol_infantry_regiment: "March of the Sevastopol 75th Infantry Regiment"
- rus_march_of_the_siberian_riflemen: "March of Siberian Riflemen"
- rus_not_for_me_comes_spring: "Not for me comes spring"
- rus_semenovsky_regiment_march: "Semenovsky Regiment March"
- rus_slavsya: "Slavsya"
- rus_strazha_na_reyne: "Strazha na Reyne"
- rus_swan_lake: "Swan Lake"
- rus_through_carpatian_mountains: "Through Carpatian Mountains"
- rus_vo_sadu_li_v_ogorode: "Vo sadu li v ogorode"
- sov_bolshevik_leaves_home: "Bolshevik leaves home"
- sov_chapaev_the_hero_strolled_the_urals: "Chapaev, the Hero Strolled the Urals"
- sov_march_of_the_red_cavalry: "March of the Red Calvary"
- sov_tachanka: "Tachanka"
- sov_the_red_army_is_the_strongest: "The Red Army is the Strongest"
- sov_through_the_valleys_and_over_the_hills: "Through valleys and over hills"
- sov_varshavianka: "Varshavianka"
- vln_mother_anarchy: "Mother Anarchy Loves Her Sons"
+ rus_black_raven: "Черный ворон"
+ rus_god_save_the_tsar: "Боже, царя храни!"
+ rus_jaeger_march: "Егерский марш"
+ rus_march_borodino: "Бородинский марш"
+ rus_march_of_pechora_regiment: "Марш Печорского полка"
+ rus_march_of_the_drozdovsky_regiment: "Марш Дроздовского полка"
+ rus_march_of_the_kornilov_regiment: "Марш Корниловского полка"
+ rus_march_of_the_preobrazhensky_regiment: "Марш Преображенского полка"
+ rus_march_of_the_sevastopol_infantry_regiment: "Марш Севастопольского 75-го пехотного полка"
+ rus_march_of_the_siberian_riflemen: "Марш сибирских стрелков"
+ rus_not_for_me_comes_spring: "Не для меня придёт весна"
+ rus_semenovsky_regiment_march: "Марш Семеновского полка"
+ rus_slavsya: "Слався"
+ rus_strazha_na_reyne: "Стража на Рейне"
+ rus_swan_lake: "Лебединое озеро"
+ rus_through_carpatian_mountains: "По горам карпатским"
+ rus_vo_sadu_li_v_ogorode: "Во саду ли в огороде"
+ sov_bolshevik_leaves_home: "Большевик уходит из дома"
+ sov_chapaev_the_hero_strolled_the_urals: "Гулял по Уралу Чапаев-герой"
+ sov_march_of_the_red_cavalry: "Марш красных кавалеристов"
+ sov_tachanka: "Тачанка"
+ sov_the_red_army_is_the_strongest: "Красная Армия всех сильней"
+ sov_through_the_valleys_and_over_the_hills: "По долинам и по взгорьям"
+ sov_varshavianka: "Варшавянка"
+ vln_mother_anarchy: "Мать Анархия любит своих сыновей"
 
 ### SER - Serbia ###
  ser_hej_trubacu_s_bujne_drine: "Hej, trubaču s bujne Drine"

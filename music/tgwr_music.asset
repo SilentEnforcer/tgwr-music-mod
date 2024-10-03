@@ -381,6 +381,58 @@ music = {
 	volume = 0.65
 }
 
+### ROM - Romania ###
+music = {
+	name = "rom_carul_cu_boi"
+	file = "audio/01_europe/ROM/rom_carul_cu_boi.ogg"
+	volume = 0.65
+}
+music = {
+	name = "rom_drum_bun"
+	file = "audio/01_europe/ROM/rom_drum_bun.ogg"
+	volume = 0.65
+}
+music = {
+	name = "rom_Ferdinand_mars"
+	file = "audio/01_europe/ROM/rom_Ferdinand_mars.ogg"
+	volume = 0.65
+}
+music = {
+	name = "rom_imnul_diviziei_2_infanterie_getica"
+	file = "audio/01_europe/ROM/rom_imnul_diviziei_2_infanterie_getica.ogg"
+	volume = 0.65
+}
+music = {
+	name = "rom_marsul_lui_Carol_I"
+	file = "audio/01_europe/ROM/rom_marsul_lui_Carol_I.ogg"
+	volume = 0.65
+}
+music = {
+	name = "rom_marsul_lui_Iancu"
+	file = "audio/01_europe/ROM/rom_marsul_lui_Iancu.ogg"
+	volume = 0.65
+}
+music = {
+	name = "rom_marsul_vanatorilor_de_munte"
+	file = "audio/01_europe/ROM/rom_marsul_vanatorilor_de_munte.ogg"
+	volume = 0.65
+}
+music = {
+	name = "rom_pe_al_nostru_steag_e_scris_unire"
+	file = "audio/01_europe/ROM/rom_pe_al_nostru_steag_e_scris_unire.ogg"
+	volume = 0.65
+}
+music = {
+	name = "rom_transilvanie_frumoasa"
+	file = "audio/01_europe/ROM/rom_transilvanie_frumoasa.ogg"
+	volume = 0.65
+}
+music = {
+	name = "rom_treceti_batalioane_romane_carpatii"
+	file = "audio/01_europe/ROM/rom_treceti_batalioane_romane_carpatii.ogg"
+	volume = 0.65
+}
+
 ### RUS - Russia ###
 music = {
 	name = "rus_black_raven"

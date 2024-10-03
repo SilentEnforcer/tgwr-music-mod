@@ -738,6 +738,84 @@ music = {
 	}
 }
 
+### ROM - Romania ###
+music = {
+	song = "rom_carul_cu_boi"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = ROM }
+	}
+}
+music = {
+	song = "rom_drum_bun"
+	chance = {
+		base = 0
+		modifier = { add = 1	original_tag = ROM }
+		modifier = { factor = 3	has_war = yes }
+	}
+}
+music = {
+	song = "rom_Ferdinand_mars"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = ROM }
+	}
+}
+music = {
+	song = "rom_imnul_diviziei_2_infanterie_getica"
+	chance = {
+		base = 0
+		modifier = { add = 1	original_tag = ROM }
+		modifier = { factor = 3	has_war = yes }
+	}
+}
+music = {
+	song = "rom_marsul_lui_Carol_I"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = ROM }
+	}
+}
+music = {
+	song = "rom_marsul_lui_Iancu"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = ROM }
+	}
+}
+music = {
+	song = "rom_marsul_vanatorilor_de_munte"
+	chance = {
+		base = 0
+		modifier = { add = 1	original_tag = ROM }
+		modifier = { factor = 3	has_war = yes }
+	}
+}
+music = {
+	song = "rom_pe_al_nostru_steag_e_scris_unire"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = ROM }
+	}
+}
+music = {
+	song = "rom_transilvanie_frumoasa"
+	chance = {
+		base = 0
+		modifier = { add = 1	original_tag = ROM }
+		modifier = { factor = 3	has_war = yes }
+	}
+}
+music = {
+	song = "rom_treceti_batalioane_romane_carpatii"
+	chance = {
+		base = 0
+		modifier = { add = 1	original_tag = ROM }
+		modifier = { factor = 3	has_war = yes }
+	}
+}
+
+
 ### RUS - Russia ###
 music = {
 	song = "rus_black_raven"
