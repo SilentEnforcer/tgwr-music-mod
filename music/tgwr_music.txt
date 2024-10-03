@@ -1882,7 +1882,7 @@ music = {
 	}	
 }
 music = {
-	song = "per_sault_of_the_sublime_state_of_persia"
+	song = "per_salute_of_the_sublime_state_of_persia"
 	chance = {
 		base = 0
 		modifier = { 
