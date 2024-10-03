@@ -576,6 +576,17 @@ music = {
 	}
 }
 music = {
+	song = "ger_in_honolulu"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			original_tag = GER 
+			owns_state = 798
+		}
+	}
+}
+music = {
 	song = "ger_muss_i_denn"
 	chance = {
 		base = 0

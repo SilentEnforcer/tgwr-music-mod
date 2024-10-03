@@ -57,4 +57,5 @@ Temporary Items
 *.bat
 *.exe
 *.mp3
+*.log
 .vscode/extensions.json

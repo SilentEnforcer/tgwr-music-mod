@@ -280,6 +280,11 @@ music = {
 	volume = 0.65
 }
 music = {
+	name = "ger_in_honolulu"
+	file = "audio/01_europe/GER/ger_in_honolulu.ogg"
+	volume = 0.65
+}
+music = {
 	name = "ger_muss_i_denn"
 	file = "audio/01_europe/GER/ger_muss_i_denn.ogg"
 	volume = 0.65
