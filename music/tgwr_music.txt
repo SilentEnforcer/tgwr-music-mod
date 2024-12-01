@@ -5,21 +5,13 @@ music_station = "tgwr_main_music"
 music = {
 	song = "maintheme"
 	chance = {
-		base = 0
 		modifier = {
-			add = 0.5
+			factor = 0.5
 		}	
 		modifier = {
-			add = 3
-			is_russian_tag = yes
-			OR = {
-				AND = {
-					tag = SOV
-					has_war = yes
-				}
-				has_war_with = SOV
-			}
-		}		
+			factor = 3
+			tag = ROM
+		}	
 	}
 }
 music = {
@@ -101,53 +93,53 @@ music = {
 		modifier = {
 			add = 3
 			has_war = yes
-			tag = AUH
+			tag = AUS
 		}		
 	}
 }
 ##### Regional #####
 
-### AUH - Austria-Hungary ###
+### AUS - Austria-Hungary ###
 music = {
 	song = "auh_deutschmeister_regimentsmarsch"
 	chance = {
 		base = 0
-		modifier = { add = 2	original_tag = AUH }
+		modifier = { add = 2	original_tag = AUS }
 	}
 }
 music = {
 	song = "auh_egerlander_marsch"
 	chance = {
 		base = 0
-		modifier = { add = 2	original_tag = AUH }
+		modifier = { add = 2	original_tag = AUS }
 	}
 }
 music = {
 	song = "auh_erzherzog_albrecht_marsch"
 	chance = {
 		base = 0
-		modifier = { add = 2	original_tag = AUH }
+		modifier = { add = 2	original_tag = AUS }
 	}
 }
 music = {
 	song = "auh_karntner_gebirgsschutzenmarsch"
 	chance = {
 		base = 0
-		modifier = { add = 2	original_tag = AUH }
+		modifier = { add = 2	original_tag = AUS }
 	}
 }
 music = {
 	song = "auh_unter_dem_doppeladler"
 	chance = {
 		base = 0
-		modifier = { add = 2	original_tag = AUH }
+		modifier = { add = 2	original_tag = AUS }
 	}
 }
 music = {
 	song = "auh_unter_der_admiralsflagge"
 	chance = {
 		base = 0
-		modifier = { add = 2	original_tag = AUH }
+		modifier = { add = 2	original_tag = AUS }
 	}
 }
 
@@ -721,7 +713,7 @@ music = {
 		modifier = { 
 			add = 2	
 			original_tag = ITA 
-			has_war_with = AUH
+			has_war_with = AUS
 		}
 	}	
 }
@@ -1090,7 +1082,7 @@ music = {
 		modifier = { 
 			add = 2	
 			is_russian_tag = yes  
-			has_war_with = AUH
+			has_war_with = AUS
 			has_war_with = GER
 		}
 	}
@@ -1103,7 +1095,7 @@ music = {
 			add = 2	
 			is_russian_tag = yes  
 			has_war_with = GER	
-			has_war_with = AUH
+			has_war_with = AUS
 			NOT = {
 				has_global_flag = great_war_ends
 			}
