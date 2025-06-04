@@ -301,7 +301,54 @@ music = {
 	song = "eng_by_order_of_the_king"
 	chance = {
 		base = 0
-		modifier = { add = 2	original_tag = ENG }
+		modifier = { 
+			add = 2	
+			original_tag = ENG
+			is_britain_a_monarchy = yes
+		}
+		modifier = { 
+			add = 2	
+			is_commonwealth_tag = yes
+			if = {
+				limit = {
+					is_subject = yes
+				}
+				OVERLORD = {
+					is_commonwealth_tag = yes
+					is_britain_a_monarchy = yes
+				}
+			}
+			else = {
+				always = no
+			}			
+		}
+	}
+}
+music = {
+	song = "eng_god_save_the_king"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			original_tag = ENG
+			is_britain_a_monarchy = yes
+		}
+		modifier = { 
+			add = 2	
+			is_commonwealth_tag = yes
+			if = {
+				limit = {
+					is_subject = yes
+				}
+				OVERLORD = {
+					is_commonwealth_tag = yes
+					is_britain_a_monarchy = yes
+				}
+			}
+			else = {
+				always = no
+			}			
+		}
 	}
 }
 music = {
@@ -528,7 +575,13 @@ music = {
 	song = "ger_askari_klange"
 	chance = {
 		base = 0
-		modifier = { add = 2	original_tag = GER }
+		modifier = { 
+			add = 2	
+			original_tag = GER 
+			any_owned_state = {
+				is_on_continent = africa
+			}
+		}
 	}
 }
 music = {
@@ -549,7 +602,24 @@ music = {
 	song = "ger_heia_safari"
 	chance = {
 		base = 0
-		modifier = { add = 2	original_tag = GER }
+		modifier = { 
+			add = 2	
+			original_tag = GER 
+			any_owned_state = {
+				is_on_continent = africa
+			}
+		}
+	}
+}
+music = {
+	song = "ger_heil_dir_im_siegerkranz"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			original_tag = GER
+			is_GER_a_monarchy = yes 
+		}
 	}
 }
 music = {
@@ -570,7 +640,11 @@ music = {
 	song = "ger_in_einem_polenstadtchen"
 	chance = {
 		base = 0
-		modifier = { add = 2	original_tag = GER }
+		modifier = { 
+			add = 2	
+			original_tag = GER 
+			NOT = { has_country_flag = great_war_loser }
+		}
 	}
 }
 music = {
@@ -602,7 +676,13 @@ music = {
 	song = "ger_schon_war_die_zeit_fur_uns_in_afrika"
 	chance = {
 		base = 0
-		modifier = { add = 2	original_tag = GER }
+		modifier = { 
+			add = 2	
+			original_tag = GER 
+			any_owned_state = {
+				is_on_continent = africa
+			}
+		}
 	}
 }
 music = {
@@ -1180,6 +1260,17 @@ music = {
 	}
 }
 music = {
+	song = "rus_the_prayer_of_russians"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			is_russian_tag = yes 
+			is_russia_a_monarchy = yes
+		}	
+	}	
+}
+music = {
 	song = "rus_through_carpatian_mountains"
 	chance = {
 		base = 0
@@ -1511,6 +1602,15 @@ music = {
 	}
 }
 
+### SWI - Switzerland ###
+music = {
+	song = "swi_rufst_du_mein_vaterland"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = SPR }
+	}
+}
+
 ### BRA - Brazil ###
 music = {
 	song = "bra_dobrado_sargento_calhau"
@@ -1726,6 +1826,16 @@ music = {
 			add = 0.5	
 			is_usa_tag = yes 
 			has_war_with = GER
+		}
+	}
+}
+music = {
+	song = "usa_my_country_tis_of_thee"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			is_usa_tag = yes 
 		}
 	}
 }

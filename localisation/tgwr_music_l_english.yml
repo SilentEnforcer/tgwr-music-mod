@@ -44,6 +44,7 @@
  eng_bombed_last_night: "Bombed Last Night"
  eng_britain_ask_of_thyself: "Britain, Ask Of Thyself"
  eng_by_order_of_the_king: "By Order of the King"
+ eng_god_save_the_king: "God Save The King"
  eng_heart_of_oak: "Heart of Oak"
  eng_jerusalem: "Jerusalem"
  eng_land_of_hope_and_glory: "Land of Hope and Glory"
@@ -71,6 +72,7 @@
  ger_die_wacht_am_rhein: "Die Wacht am Rhein"
  ger_fehrbelliner_reitermarsch: "Fehrbelliner Reitermarsch"
  ger_heia_safari: "Heia Safari"
+ ger_heil_dir_im_siegerkranz: "Heil dir im Siegerkranz"
  ger_ich_bin_ein_deutscher_kennt_ihr_meine_farben: "Ich bin ein Deutscher, kennt ich meine Farben?"
  ger_im_wald_im_grunen_walde: "Im Wald, Im Grünen Walde"
  ger_in_einem_polenstadtchen: "In einem Polenstädtchen"
@@ -132,6 +134,7 @@
  rus_slavsya: "Slavsya"
  rus_strazha_na_reyne: "Strazha na Reyne"
  rus_swan_lake: "Swan Lake"
+ rus_the_prayer_of_russians: "The Prayer of Russians"
  rus_through_carpatian_mountains: "Through Carpatian Mountains"
  rus_vo_sadu_li_v_ogorode: "Vo sadu li v ogorode"
  sov_bolshevik_leaves_home: "Bolshevik leaves home"
@@ -164,6 +167,9 @@
 ### SPR - Spain ###
  spr_marcha_real: "Marcha Real"
 
+### SWI - Switzerland ###
+ swi_rufst_du_mein_vaterland: "Rufst du, mein Vaterland"
+
 ### BRA - Brazil ###
  bra_dobrado_sargento_calhau: "Dobrado Sargento Calhau"
  bra_exulta_oh_brazil: "Exulta, oh Brazil!"
@@ -192,6 +198,7 @@
  usa_i_may_be_gone_for_a_long_long_time: "I May Be Gone for a Long, Long Time"
  usa_im_gonna_pin_my_medal_on_the_girl_i_left_behind: "I'm Gonna Pin My Medal on the Girl I Left Behind"
  usa_like_washington_crossed_the_delaware: "Like Washington Crossed the Delaware"
+ usa_my_country_tis_of_thee: "My Country, 'Tis of Thee"
  usa_oui_oui_marie: "Oui, Oui, Marie"
  usa_over_there: "Over There"
  usa_say_a_prayer_for_our_boys: "Say a Prayer for the Boys "Out There""

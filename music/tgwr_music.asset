@@ -146,6 +146,11 @@ music = {
 	volume = 0.65
 }
 music = {
+	name = "eng_god_save_the_king"
+	file = "audio/01_europe/ENG/eng_god_save_the_king.ogg"
+	volume = 0.65
+}
+music = {
 	name = "eng_heart_of_oak"
 	file = "audio/01_europe/ENG/eng_heart_of_oak.ogg"
 	volume = 0.65
@@ -262,6 +267,11 @@ music = {
 music = {
 	name = "ger_heia_safari"
 	file = "audio/01_europe/GER/ger_heia_safari.ogg"
+	volume = 0.65
+}
+music = {
+	name = "ger_heil_dir_im_siegerkranz"
+	file = "audio/01_europe/GER/ger_heil_dir_im_siegerkranz.ogg"
 	volume = 0.65
 }
 music = {
@@ -530,6 +540,11 @@ music = {
 	volume = 0.65
 }
 music = {
+	name = "rus_the_prayer_of_russians"
+	file = "audio/01_europe/RUS/rus_the_prayer_of_russians.ogg"
+	volume = 0.65
+}
+music = {
 	name = "rus_through_carpatian_mountains"
 	file = "audio/01_europe/RUS/rus_through_carpatian_mountains.ogg"
 	volume = 0.65
@@ -669,6 +684,13 @@ music = {
 	volume = 0.65
 }
 
+### SWI - Switzerland ###
+music = {
+	name = "swi_rufst_du_mein_vaterland"
+	file = "audio/01_europe/SWI/swi_rufst_du_mein_vaterland.ogg"
+	volume = 0.65
+}
+
 ### BRA - Brazil ###
 music = {
 	name = "bra_dobrado_sargento_calhau"
@@ -787,6 +809,11 @@ music = {
 music = {
 	name = "usa_like_washington_crossed_the_delaware"
 	file = "audio/02_americas/USA/usa_like_washington_crossed_the_delaware.ogg"
+	volume = 0.65
+}
+music = {
+	name = "usa_my_country_tis_of_thee"
+	file = "audio/02_americas/USA/usa_my_country_tis_of_thee.ogg"
 	volume = 0.65
 }
 music = {
