@@ -881,6 +881,30 @@ music = {
 	}	
 }
 music = {
+	song = "rus_korobeiniki"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 1
+			is_russian_tag = yes
+		}	
+		modifier = { 
+			factor = 2
+			has_war = no
+		}
+		modifier = {
+			add = 2	
+			original_tag = JAP
+			has_war_with = RUS
+		}
+		modifier = {
+			add = 2	
+			original_tag = RUS
+			has_war_with = JAP
+		}
+	}	
+}
+music = {
 	song = "rus_march_borodino"
 	chance = {
 		base = 0
@@ -965,6 +989,9 @@ music = {
 						is_unit_leader = yes
 						is_country_leader = yes
 					}			
+				}
+				else = {
+					always = no
 				}
 			}	
 		}
@@ -1078,7 +1105,7 @@ music = {
 		modifier = { 
 			add = 2	
 			is_russian_tag = yes  
-			has_war = no	
+			has_war = no
 		}
 	}
 }
