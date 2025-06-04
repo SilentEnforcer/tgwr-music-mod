@@ -1884,36 +1884,29 @@ music = {
 	song = "per_salame_shah"
 	chance = {
 		base = 0
-		modifier = { 
-			add = 2 original_tag = PER
-		}
+		modifier = { add = 2 original_tag = PER }
 	}	
 }
 music = {
 	song = "per_shahanshahi"
 	chance = {
 		base = 0
-		modifier = { 
-			add = 2 original_tag = PER
-		}
+		modifier = { add = 2 original_tag = PER }
 	}	
 }
 music = {
 	song = "per_persischer_marsch"
 	chance = {
 		base = 0
-		modifier = { 
-			add = 2 original_tag = PER
-		}
+		modifier = { add = 2 original_tag = PER }
+		modifier = { add = 1 original_tag = AUS }
 	}	
 }
 music = {
 	song = "per_salute_of_the_sublime_state_of_persia"
 	chance = {
 		base = 0
-		modifier = { 
-			add = 2 original_tag = PER
-		}
+		modifier = { add = 2 original_tag = PER }
 	}	
 }
 
