@@ -897,16 +897,15 @@ music = {
 		modifier = { 
 			factor = 2
 			has_war = no
+		}		
+		modifier = {
+			factor = 2
+			has_war_with = JAP
 		}
 		modifier = {
 			add = 2	
 			original_tag = JAP
 			has_war_with = RUS
-		}
-		modifier = {
-			add = 2	
-			original_tag = RUS
-			has_war_with = JAP
 		}
 	}	
 }
