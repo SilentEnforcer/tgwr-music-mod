@@ -105,6 +105,7 @@ music = {
 	chance = {
 		base = 0
 		modifier = { add = 2	original_tag = AUS }
+		modifier = { add = 1	is_subject_of = AUS }
 	}
 }
 music = {
@@ -112,6 +113,7 @@ music = {
 	chance = {
 		base = 0
 		modifier = { add = 2	original_tag = AUS }
+		modifier = { add = 1	is_subject_of = AUS }
 	}
 }
 music = {
@@ -119,6 +121,7 @@ music = {
 	chance = {
 		base = 0
 		modifier = { add = 2	original_tag = AUS }
+		modifier = { add = 1	is_subject_of = AUS }
 	}
 }
 music = {
@@ -126,6 +129,7 @@ music = {
 	chance = {
 		base = 0
 		modifier = { add = 2	original_tag = AUS }
+		modifier = { add = 1	is_subject_of = AUS }
 	}
 }
 music = {
@@ -133,6 +137,7 @@ music = {
 	chance = {
 		base = 0
 		modifier = { add = 2	original_tag = AUS }
+		modifier = { add = 1	is_subject_of = AUS }
 	}
 }
 music = {
@@ -140,6 +145,7 @@ music = {
 	chance = {
 		base = 0
 		modifier = { add = 2	original_tag = AUS }
+		modifier = { add = 1	is_subject_of = AUS }
 	}
 }
 
