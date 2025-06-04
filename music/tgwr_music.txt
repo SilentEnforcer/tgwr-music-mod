@@ -1602,6 +1602,19 @@ music = {
 	}
 }
 
+### SWE - Sweden ###
+music = {
+	song = "swe_i_eksjo_stad_pa_ranneslatt"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			original_tag = SWE 
+			has_war = no
+		}
+	}
+}
+
 ### SWI - Switzerland ###
 music = {
 	song = "swi_rufst_du_mein_vaterland"
