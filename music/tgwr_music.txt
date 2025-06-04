@@ -834,12 +834,37 @@ music = {
 
 ### RUS - Russia ###
 music = {
+	song = "rus_amur_waves"
+	chance = {
+		base = 0
+		modifier = {
+			add = 2
+			is_russian_tag = yes
+		}
+		modifier = {
+			factor = 2
+			OR = {
+				original_tag = CER
+				tag = AMU
+				tag = TBK
+				tag = USS
+				tag = PRI
+				original_tag = FER
+			}
+		}
+		modifier = {
+			factor = 1.5
+			has_war_with = JAP
+		}
+	}	
+}
+music = {
 	song = "rus_black_raven"
 	chance = {
 		base = 0
 		modifier = { 
 			add = 3
-			is_russian_tag = yes 	
+			is_russian_tag = yes
 			OR = {
 				is_in_russian_civil_war = yes
 				casualties_k > 1000
@@ -972,7 +997,7 @@ music = {
 	chance = {
 		base = 0
 		modifier = { 
-			add = 2	
+			add = 2
 			is_russian_tag = yes 
 			has_global_flag = russian_civil_war
 			NOT = {
@@ -1043,9 +1068,26 @@ music = {
 			}
 		}	
 		modifier = {
-			add = 2
-			is_russian_tag = yes
+			factor = 2
 			has_war = yes
+		}
+		modifier = {
+			factor = 1.5
+			is_in_russian_civil_war = yes
+		}		
+		modifier = {
+			add = 2
+			tag = SIB
+		}	
+	}	
+}
+music = {
+	song = "rus_not_for_me_comes_spring"
+	chance = {
+		base = 0
+		modifier = {
+			add = 1
+			is_russian_tag = yes
 			NOT = {
 				AND = {
 					tag = SOV
@@ -1054,14 +1096,37 @@ music = {
 			}
 		}
 		modifier = {
-			factor = 2
-			is_russian_tag = yes
-			is_in_russian_civil_war = yes
-		}		
+			factor = 3
+			OR = {
+				is_in_russian_civil_war = yes
+				casualties_k > 1000
+			}
+		}
+	}	
+}
+music = {
+	song = "rus_on_the_hills_of_manchuria"
+	chance = {
+		base = 0
 		modifier = {
 			add = 2
-			tag = SIB
-		}	
+			is_russian_tag = yes
+		}
+		modifier = {
+			factor = 2
+			OR = {
+				original_tag = CER
+				tag = AMU
+				tag = TBK
+				tag = USS
+				tag = PRI
+				original_tag = FER
+			}
+		}
+		modifier = {
+			factor = 1.5
+			has_war_with = JAP
+		}
 	}	
 }
 music = {
