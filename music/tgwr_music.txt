@@ -10,7 +10,7 @@ music = {
 		}	
 		modifier = {
 			factor = 3
-			tag = ROM
+			tag = GER
 		}	
 	}
 }
@@ -742,6 +742,13 @@ music = {
 }
 
 ### ROM - Romania ###
+music = {
+	song = "enescu_symphony_1"
+	chance = {
+		modifier = { factor = 0.5 }	
+		modifier = { factor = 3		tag = ROM }	
+	}
+}
 music = {
 	song = "rom_carul_cu_boi"
 	chance = {
