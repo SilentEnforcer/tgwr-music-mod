@@ -687,7 +687,7 @@ music = {
 ### SWE - Sweden ###
 music = {
 	name = "swe_i_eksjo_stad_pa_ranneslatt"
-	file = "audio/01_europe/SWI/swe_i_eksjo_stad_pa_ranneslatt.ogg"
+	file = "audio/01_europe/SWE/swe_i_eksjo_stad_pa_ranneslatt.ogg"
 	volume = 0.65
 }
 
