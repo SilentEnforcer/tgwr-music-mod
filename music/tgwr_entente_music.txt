@@ -1,0 +1,2021 @@
+music_station = "tgwr_entente_music"
+
+### BEL - Belgium ###
+music = {
+	song = "bel_extinction_de_lumieres_en_fantaisie"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = BEL
+				BEL = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+music = {
+	song = "bel_marche_de_l_artillerie_de_campagne"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = BEL
+				BEL = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+music = {
+	song = "bel_marche_du_1er_regiment_de_carabiniers_cyclistes"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = BEL
+				BEL = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+music = {
+	song = "bel_marche_du_1er_regiment_des_lanciers"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = BEL
+				BEL = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+music = {
+	song = "bel_marche_du_4eme_escadron"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = BEL
+				BEL = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+music = {
+	song = "bel_marche_du_12eme_regiment"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = BEL
+				BEL = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+### ENG - United Kingdom ###
+music = {
+	song = "eng_bombed_last_night"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = ENG
+				ENG = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+			ENG = {
+				has_war_with = GER
+				casualties_k > 100
+			}
+		}
+	}
+}
+music = {
+	song = "eng_britain_ask_of_thyself"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = ENG
+				ENG = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+			ENG = {
+				has_war = yes
+			}
+		}
+	}
+}
+music = {
+	song = "eng_by_order_of_the_king"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = ENG
+				ENG = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+music = {
+	song = "eng_god_save_the_king"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = ENG
+				ENG = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+music = {
+	song = "eng_heart_of_oak"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = ENG
+				ENG = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+music = {
+	song = "eng_land_of_hope_and_glory"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = ENG
+				ENG = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+music = {
+	song = "eng_sons_of_the_brave"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = ENG
+				ENG = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+music = {
+	song = "eng_the_british_grenadiers"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = ENG
+				ENG = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+music = {
+	song = "eng_the_connaught_rangers"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = ENG
+				ENG = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+music = {
+	song = "eng_the_laddies_who_fought_and_won"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = ENG
+				ENG = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+			ENG = {
+				OR = {
+					has_war = yes
+					has_country_flag = great_war_winner
+				}
+			}
+		}
+	}
+}
+
+### FRA - France ###
+music = {
+	song = "symphony_funebre_et_triomphale"
+	chance = {
+		base = 2		
+	}
+}
+music = {
+	song = "fra_chant_du_depart"
+	chance = {
+		base = 2
+	}
+}
+music = {
+	song = "fra_la_marseillaise"
+	chance = {
+		base = 2
+	}
+}
+music = {
+	song = "fra_la_strasbourgeoise"
+	chance = {
+		base = 2
+	}
+}
+music = {
+	song = "fra_le_chant_des_africains"
+	chance = {
+		base = 2
+	}
+}
+music = {
+	song = "fra_le_regiment_de_sambre_et_meuse"
+	chance = {
+		base = 2
+	}
+}
+music = {
+	song = "fra_verdun_on_ne_passe_pas"
+	chance = {
+		base = 0
+		modifier = {
+			add = 2
+			FRA = { has_war_with = GER }
+		}
+	}
+}
+music = {
+	song = "fra_vous_n_aurez_pas_l_alsace_et_la_lorraine"
+	chance = {
+		base = 0
+		modifier = {
+			add = 2
+			FRA = { has_war_with = GER }
+		}
+	}	
+}
+### GRE - Greece ###
+music = {
+	song = "gre_kleftikos"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = GRE
+				GRE = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+music = {
+	song = "gre_march_of_smyrna"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = GRE
+				GRE = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+music = {
+	song = "gre_marche_selanik"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = GRE
+				GRE = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+music = {
+	song = "gre_the_liberation_of_serres"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = GRE
+				GRE = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+### ITA - Italy ###
+music = {
+	song = "ita_fantasia_echi_di_trincea"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = ITA
+				ITA = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}	
+}
+music = {
+	song = "ita_fratelli_d_italia"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = ITA
+				ITA = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}	
+}
+music = {
+	song = "ita_la_leggenda_del_piave"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = ITA
+				ITA = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}	
+}
+music = {
+	song = "ita_marcia_reale"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = ITA
+				ITA = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}	
+}
+
+### POR - Portugual ###
+music = {
+	song = "por_a_portuguesa"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = POR
+				POR = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+music = {
+	song = "por_hino_da_carta"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = POR
+				POR = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+### ROM - Romania ###
+music = {
+	song = "enescu_symphony_1"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = ROM
+				ROM = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}	
+}
+music = {
+	song = "rom_carul_cu_boi"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = ROM
+				ROM = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+music = {
+	song = "rom_drum_bun"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = ROM
+				ROM = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+music = {
+	song = "rom_Ferdinand_mars"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = ROM
+				ROM = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+music = {
+	song = "rom_imnul_diviziei_2_infanterie_getica"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = ROM
+				ROM = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+music = {
+	song = "rom_marsul_lui_Carol_I"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = ROM
+				ROM = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+music = {
+	song = "rom_marsul_lui_Iancu"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = ROM
+				ROM = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+music = {
+	song = "rom_marsul_vanatorilor_de_munte"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = ROM
+				ROM = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+music = {
+	song = "rom_pe_al_nostru_steag_e_scris_unire"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = ROM
+				ROM = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+music = {
+	song = "rom_transilvanie_frumoasa"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = ROM
+				ROM = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+music = {
+	song = "rom_treceti_batalioane_romane_carpatii"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = ROM
+				ROM = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+### RUS - Russia ###
+music = {
+	song = "rus_amur_waves"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				is_russian_tag = yes
+				RUS = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}	
+}
+music = {
+	song = "rus_black_raven"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				is_russian_tag = yes
+				RUS = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+			RUS = {
+				casualties_k > 1000
+			}
+		}	
+	}	
+}
+music = {
+	song = "rus_god_save_the_tsar"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				is_russian_tag = yes
+				RUS = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+			RUS = {
+				is_russia_a_monarchy = yes
+			}
+		}
+	}	
+}
+music = {
+	song = "rus_jaeger_march"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				is_russian_tag = yes
+				RUS = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}	
+}
+music = {
+	song = "rus_march_borodino"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				is_russian_tag = yes
+				RUS = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}	
+}
+music = {
+	song = "rus_march_of_pechora_regiment"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				is_russian_tag = yes
+				RUS = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}	
+}
+music = {
+	song = "rus_march_of_the_preobrazhensky_regiment"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				is_russian_tag = yes
+				RUS = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}	
+}
+music = {
+	song = "rus_march_of_the_sevastopol_infantry_regiment"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				is_russian_tag = yes
+				RUS = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}	
+}
+music = {
+	song = "rus_march_of_the_siberian_riflemen"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				is_russian_tag = yes
+				RUS = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}	
+}
+music = {
+	song = "rus_not_for_me_comes_spring"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				is_russian_tag = yes
+				RUS = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+			RUS = {
+				casualties_k > 1000
+			}
+		}
+	}	
+}
+music = {
+	song = "rus_on_the_hills_of_manchuria"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				is_russian_tag = yes
+				RUS = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}	
+}
+music = {
+	song = "rus_semenovsky_regiment_march"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				is_russian_tag = yes
+				RUS = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}		
+	}	
+}
+music = {
+	song = "rus_slavsya"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				is_russian_tag = yes
+				RUS = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+			RUS = {
+				is_russia_a_monarchy = yes
+			}
+		}	
+	}	
+}
+music = {
+	song = "rus_the_prayer_of_russians"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				is_russian_tag = yes
+				RUS = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+			RUS = {
+				is_russia_a_monarchy = yes
+			}
+		}	
+	}	
+}
+music = {
+	song = "rus_through_carpatian_mountains"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				is_russian_tag = yes
+				RUS = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+			RUS = {
+				has_war_with = GER	
+				has_war_with = AUS
+			}
+		}
+	}
+}
+music = {
+	song = "rus_vo_sadu_li_v_ogorode"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				is_russian_tag = yes
+				RUS = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+			RUS = {
+				has_war_with = GER	
+				has_war_with = AUS
+				casualties_k < 1000
+			}
+		}
+	}
+}
+music = {
+	song = "sov_varshavianka"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				is_russian_tag = yes
+				RUS = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+			RUS = {
+				has_government = communism
+				has_country_leader_ideology = social_democracy
+			}
+		}
+	}
+}
+
+### SER - Serbia ###
+music = {
+	song = "ser_hej_trubacu_s_bujne_drine"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = SER
+				SER = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+music = {
+	song = "ser_igrale_se_delije"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = SER
+				SER = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+music = {
+	song = "ser_ko_to_kaze_srbija_je_mala"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = SER
+				SER = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+music = {
+	song = "ser_krece_se_lada_francuska"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = SER
+				SER = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+			SER = {
+				has_capitulated = yes
+			}
+		}
+	}
+}
+music = {
+	song = "ser_march_on_the_drina"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = SER
+				SER = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+music = {
+	song = "ser_mars_vojvode_stepe_stepanovica"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = SER
+				SER = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+music = {
+	song = "ser_marsirala_kralja_petra_garda"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = SER
+				SER = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+music = {
+	song = "ser_nizamski_rastanak"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = SER
+				SER = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+music = {
+	song = "ser_oj_moravo_mars"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = SER
+				SER = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+music = {
+	song = "ser_oj_srbijo_mila_mati"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = SER
+				SER = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+music = {
+	song = "ser_rado_ide_srbin_u_vojnike"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = SER
+				SER = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+			SER = {
+				has_capitulated = no
+			}
+		}
+	}
+}
+music = {
+	song = "ser_stigo_svaba_do_dunava"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = SER
+				SER = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+music = {
+	song = "ser_tamo_daleko"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = SER
+				SER = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+			SER = {
+				has_capitulated = yes
+			}
+		}
+	}
+}
+music = {
+	song = "ser_tobdzijsko_kolo"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = SER
+				SER = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+music = {
+	song = "ser_trubni_znak_za_povecerje_srpske_vojske"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = SER
+				SER = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+### BRA - Brazil ###
+music = {
+	song = "bra_dobrado_sargento_calhau"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = BRA
+				BRA = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+music = {
+	song = "bra_dobrado_sargento_caveira"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = BRA
+				BRA = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+music = {
+	song = "bra_dobrado_182"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = BRA
+				BRA = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+music = {
+	song = "bra_dobrado_207"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = BRA
+				BRA = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+music = {
+	song = "bra_dobrado_220"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = BRA
+				BRA = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+music = {
+	song = "bra_dobrado_bombardeio_da_bahia"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = BRA
+				BRA = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+music = {
+	song = "bra_dobrado_o_rei_do_povo"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = BRA
+				BRA = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+### CAN - Canada ###
+music = {
+	song = "can_anti_fenian_song"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = CAN
+				CAN = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+music = {
+	song = "can_farewell_to_nova_scotia"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = CAN
+				CAN = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+### USA - United States of America ###
+music = {
+	song = "usa_america_heres_my_boy"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 0.5
+			OR = {
+				is_usa_tag = yes
+				USA = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+music = {
+	song = "usa_au_revoir_but_not_goodbye_soldier_boy"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 0.5	
+			OR = {
+				is_usa_tag = yes
+				USA = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+music = {
+	song = "usa_colonel_bogey_march"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2
+			OR = {
+				is_usa_tag = yes
+				USA = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+music = {
+	song = "usa_columbia_gem_of_the_ocean"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2
+			OR = {
+				is_usa_tag = yes
+				USA = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+music = {
+	song = "usa_for_your_boy_and_my_boy"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 0.5
+			OR = {
+				is_usa_tag = yes
+				USA = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+music = {
+	song = "usa_goodbye_broadway_hello_france"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 0.5
+			OR = {
+				is_usa_tag = yes
+				USA = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+music = {
+	song = "usa_i_didnt_raise_my_boy_to_be_a_soldier"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 0.5
+			OR = {
+				is_usa_tag = yes
+				USA = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+music = {
+	song = "usa_i_may_be_gone_for_a_long_long_time"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 0.5
+			OR = {
+				is_usa_tag = yes
+				USA = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+music = {
+	song = "usa_im_gonna_pin_my_medal_on_the_girl_i_left_behind"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 0.5	
+			is_usa_tag = yes 
+			has_war = yes
+		}
+	}
+}
+music = {
+	song = "usa_like_washington_crossed_the_delaware"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 0.5
+			OR = {
+				is_usa_tag = yes
+				USA = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+music = {
+	song = "usa_my_country_tis_of_thee"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2
+			OR = {
+				is_usa_tag = yes
+				USA = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+music = {
+	song = "usa_oui_oui_marie"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 0.5
+			OR = {
+				is_usa_tag = yes
+				USA = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+music = {
+	song = "usa_over_there"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2
+			OR = {
+				is_usa_tag = yes
+				USA = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+music = {
+	song = "usa_say_a_prayer_for_our_boys"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2
+			OR = {
+				is_usa_tag = yes
+				USA = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+music = {
+	song = "usa_the_yellow_rose_of_texas"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2
+			OR = {
+				is_usa_tag = yes
+				USA = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+music = {
+	song = "usa_we_dont_want_the_bacon"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 0.5
+			OR = {
+				is_usa_tag = yes
+				USA = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+music = {
+	song = "usa_when_johnny_comes_marching_home"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 0.5
+			OR = {
+				is_usa_tag = yes
+				USA = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}

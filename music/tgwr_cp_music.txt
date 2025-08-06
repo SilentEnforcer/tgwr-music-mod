@@ -1,0 +1,464 @@
+music_station = "tgwr_cp_music"
+
+### General ###
+
+music = {
+	song = "maintheme"
+	chance = {
+		base = 2
+	}
+}
+music = {
+	song = "mahler_symphony_5"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2
+			OR = {
+				original_tag = AUS
+				AUS = { is_in_faction_with = GER }
+				is_subject_of = AUS
+			}			
+		}		
+	}
+}
+##### Regional #####
+
+### AUS - Austria-Hungary ###
+music = {
+	song = "auh_deutschmeister_regimentsmarsch"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2
+			OR = {
+				original_tag = AUS
+				AUS = { is_in_faction_with = GER }
+				is_subject_of = AUS
+			}			
+		}
+	}
+}
+music = {
+	song = "auh_egerlander_marsch"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2
+			OR = {
+				original_tag = AUS
+				AUS = { is_in_faction_with = GER }
+				is_subject_of = AUS
+			}			
+		}
+	}
+}
+music = {
+	song = "auh_erzherzog_albrecht_marsch"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2
+			OR = {
+				original_tag = AUS
+				AUS = { is_in_faction_with = GER }
+				is_subject_of = AUS
+			}			
+		}
+	}
+}
+music = {
+	song = "auh_karntner_gebirgsschutzenmarsch"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2
+			OR = {
+				original_tag = AUS
+				AUS = { is_in_faction_with = GER }
+				is_subject_of = AUS
+			}			
+		}
+	}
+}
+music = {
+	song = "auh_unter_dem_doppeladler"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2
+			OR = {
+				original_tag = AUS
+				AUS = { is_in_faction_with = GER }
+				is_subject_of = AUS
+			}			
+		}
+	}
+}
+music = {
+	song = "auh_unter_der_admiralsflagge"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = AUS }
+		modifier = { add = 1	is_subject_of = AUS }
+	}
+}
+music = {
+	song = "per_persischer_marsch"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2
+			OR = {
+				original_tag = AUS
+				AUS = { is_in_faction_with = GER }
+				is_subject_of = AUS
+			}			
+		}
+	}	
+}
+
+### BUL - Bulgaria ###
+music = {
+	song = "bul_bozhe_tsarya_ni_pazi"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2
+			OR = {
+				original_tag = BUL
+				BUL = { is_in_faction_with = GER }
+			}
+		}
+	}
+}
+music = {
+	song = "bul_shumi_maritza"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2
+			OR = {
+				original_tag = BUL
+				BUL = { is_in_faction_with = GER }
+			}			
+		}
+	}
+}
+music = {
+	song = "bul_stani_stani_junak_balkanski"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2
+			OR = {
+				original_tag = BUL
+				BUL = { is_in_faction_with = GER }
+			}			
+		}
+	}
+}
+music = {
+	song = "bul_the_battle_has_begun"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2
+			OR = {
+				original_tag = BUL
+				BUL = { is_in_faction_with = GER }
+			}			
+		}
+	}
+}
+music = {
+	song = "bul_tih_byal_dunav"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2
+			OR = {
+				original_tag = BUL
+				BUL = { is_in_faction_with = GER }
+			}			
+		}
+	}
+}
+music = {
+	song = "bul_velik_e_nashijat_vojnik"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2
+			OR = {
+				original_tag = BUL
+				BUL = { is_in_faction_with = GER }
+			}			
+		}
+	}
+}
+music = {
+	song = "bul_vjatr_eci_balkan_stene"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2
+			OR = {
+				original_tag = BUL
+				BUL = { is_in_faction_with = GER }
+			}			
+		}
+	}
+}
+music = {
+	song = "bul_vrvi_narode_vzrodeni"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2
+			OR = {
+				original_tag = BUL
+				BUL = { is_in_faction_with = GER }
+			}			
+		}
+	}
+}
+
+### GER - Germany ###
+music = {
+	song = "ger_alter_jagermarsch"
+	chance = {
+		base = 2
+	}
+}
+music = {
+	song = "ger_argonnerwaldlied"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			GER = { has_war_with = FRA }
+			
+		}
+	}
+}
+music = {
+	song = "ger_askari_klange"
+	chance = {
+		base = 2
+	}
+}
+music = {
+	song = "ger_die_wacht_am_rhein"
+	chance = {
+		base = 2
+	}
+}
+music = {
+	song = "ger_fehrbelliner_reitermarsch"
+	chance = {
+		base = 2
+	}
+}
+music = {
+	song = "ger_heia_safari"
+	chance = {
+		base = 2
+	}
+}
+music = {
+	song = "ger_heil_dir_im_siegerkranz"
+	chance = {
+		base = 2
+	}
+}
+music = {
+	song = "ger_ich_bin_ein_deutscher_kennt_ihr_meine_farben"
+	chance = {
+		base = 2
+	}
+}
+music = {
+	song = "ger_im_wald_im_grunen_walde"
+	chance = {
+		base = 2
+	}
+}
+music = {
+	song = "ger_in_einem_polenstadtchen"
+	chance = {
+		base = 2
+	}
+}
+music = {
+	song = "ger_in_honolulu"
+	chance = {
+		base = 2
+	}
+}
+music = {
+	song = "ger_muss_i_denn"
+	chance = {
+		base = 2
+	}
+}
+music = {
+	song = "ger_preusens_gloria"
+	chance = {
+		base = 2
+	}
+}
+music = {
+	song = "ger_schon_war_die_zeit_fur_uns_in_afrika"
+	chance = {
+		base = 2
+	}
+}
+music = {
+	song = "ger_unsere_marine"
+	chance = {
+		base = 2
+	}
+}
+music = {
+	song = "ger_wenn_die_soldaten"
+	chance = {
+		base = 2
+	}
+}
+music = {
+	song = "ger_wenn_wir_marschieren"
+	chance = {
+		base = 2
+	}
+}
+music = {
+	song = "ger_wo_alle_strassen_enden"
+	chance = {
+		base = 0
+		modifier = {
+			add = 4
+			GER = {
+				casualties_k > 1000
+			}	
+		}
+	}
+}
+music = {
+	song = "ger_yorckscher_marsch"
+	chance = {
+		base = 2
+	}
+}
+music = {
+	song = "ger_zehntausend_mann_die_zogen_ins_manover"
+	chance = {
+		base = 2
+	}
+}
+
+### TUR - Ottoman Empire ###
+music = {
+	song = "tur_akdeniz_marsi"
+	chance = {
+		base = 2
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = TUR
+				TUR = { is_in_faction_with = GER }
+			}
+		}	
+	}	
+}
+music = {
+	song = "tur_bu_bayrak"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = TUR
+				TUR = { is_in_faction_with = GER }
+			}
+		}
+	}	
+}
+music = {
+	song = "tur_ceddin_deden"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = TUR
+				TUR = { is_in_faction_with = GER }
+			}
+		}
+	}	
+}
+music = {
+	song = "tur_cenk_sanatimiz_marsi"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = TUR
+				TUR = { is_in_faction_with = GER }
+			}
+		}
+	}	
+}
+music = {
+	song = "tur_enver_pasa_marsi"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = TUR
+				TUR = { is_in_faction_with = GER }
+			}
+		}
+	}	
+}
+music = {
+	song = "tur_genc_osman"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = TUR
+				TUR = { is_in_faction_with = GER }
+			}
+		}
+	}	
+}
+music = {
+	song = "tur_yine_de_sahlaniyor"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = TUR
+				TUR = { is_in_faction_with = GER }
+			}
+		}
+	}	
+}
+music = {
+	song = "ser_nizamski_rastanak"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 1
+			OR = {
+				original_tag = TUR
+				TUR = { is_in_faction_with = GER }
+			}
+		}
+	}
+}

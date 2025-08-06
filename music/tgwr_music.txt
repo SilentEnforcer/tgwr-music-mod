@@ -2012,12 +2012,18 @@ music = {
 	chance = {
 		base = 0
 		modifier = {
-			add = 4
+			add = 2
 			original_tag = TUR
+			TUR_ismail_enver = {
+				is_unit_leader = yes
+			}			
+		}
+		modifier = {
+			add = 2
 			has_country_leader = {
 				character = TUR_ismail_enver
 			}
-		}	
+		}
 	}	
 }
 music = {

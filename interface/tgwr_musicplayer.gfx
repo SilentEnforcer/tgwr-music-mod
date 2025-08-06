@@ -4,4 +4,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/topbar/musicplayer/tgwr_main_album_art.png"
 		noOfFrames = 2
 	}
+	spriteType = {
+		name = "GFX_tgwr_cp_album_art"
+		texturefile = "gfx/interface/topbar/musicplayer/tgwr_cp_album_art.png"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_tgwr_entente_album_art"
+		texturefile = "gfx/interface/topbar/musicplayer/tgwr_entente_album_art.png"
+		noOfFrames = 2
+	}
 }
