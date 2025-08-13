@@ -102,8 +102,19 @@ music = {
 	chance = {
 		base = 0.5
 		modifier = {
-			add = 3
+			add = 2
 			has_war_with = USA
+			NOT = { is_usa_tag = yes }		
+		}
+		modifier = {
+			add = 1
+			has_war_together_with = USA
+			NOT = { is_usa_tag = yes }		
+		}
+		modifier = {
+			add = 1.5
+			is_USA_tag = yes
+			has_war = yes			
 		}
 	}
 }

@@ -1,5 +1,33 @@
 music_station = "tgwr_entente_music"
 
+music = {
+	song = "the_rite_of_spring"
+	chance = {
+		base = 0
+		modifier = { add = 2	has_war = no }
+	}
+}
+music = {
+	song = "dvorak_symphony_9"
+	chance = {
+		base = 0
+		modifier = {
+			add = 2
+			OR = {
+				is_usa_tag = yes
+				USA = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
 ### BEL - Belgium ###
 music = {
 	song = "bel_extinction_de_lumieres_en_fantaisie"
