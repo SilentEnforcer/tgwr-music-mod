@@ -599,6 +599,13 @@ music = {
 	}
 }
 music = {
+	song = "ger_gruss_an_kiel"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = GER }
+	}
+}
+music = {
 	song = "ger_heia_safari"
 	chance = {
 		base = 0

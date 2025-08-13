@@ -261,6 +261,12 @@ music = {
 	}
 }
 music = {
+	song = "ger_gruss_an_kiel"
+	chance = {
+		base = 2
+	}
+}
+music = {
 	song = "ger_heia_safari"
 	chance = {
 		base = 2
