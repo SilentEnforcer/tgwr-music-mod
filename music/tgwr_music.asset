@@ -21,6 +21,11 @@ music = {
 	file = "audio/01_europe/mahler_symphony_5.ogg"
 	volume = 0.7
 }
+music = {
+	name = "dvorak_symphony_9"
+	file = "audio/01_europe/dvorak_symphony_9.ogg"
+	volume = 0.7
+}
 
 ##### Regional #####
 

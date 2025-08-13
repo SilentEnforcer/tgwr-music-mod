@@ -97,6 +97,16 @@ music = {
 		}		
 	}
 }
+music = {
+	song = "dvorak_symphony_9"
+	chance = {
+		base = 0.5
+		modifier = {
+			add = 3
+			has_war_with = USA
+		}
+	}
+}
 ##### Regional #####
 
 ### AUS - Austria-Hungary ###
