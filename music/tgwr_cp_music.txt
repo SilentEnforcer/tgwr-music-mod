@@ -255,6 +255,7 @@ music = {
 		modifier = {
 			add = 2
 			has_war = no
+			GER = { has_war = no }
 		}
 	}
 }
