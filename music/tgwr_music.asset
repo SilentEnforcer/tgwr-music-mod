@@ -14,7 +14,7 @@ music = {
 music = {
 	name = "the_rite_of_spring"
 	file = "audio/01_europe/the_rite_of_spring.ogg"
-	volume = 0.7
+	volume = 0.9
 }
 music = {
 	name = "mahler_symphony_5"
