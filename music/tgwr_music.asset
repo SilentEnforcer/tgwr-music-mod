@@ -381,7 +381,7 @@ music = {
 music = {
 	name = "ita_fratelli_d_italia"
 	file = "audio/01_europe/ITA/ita_fratelli_d_italia.ogg"
-	volume = 0.65
+	volume = 0.55
 }
 music = {
 	name = "ita_la_leggenda_del_piave"
