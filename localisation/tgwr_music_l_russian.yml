@@ -70,6 +70,7 @@
  ger_alter_jagermarsch: "Alter Jägermarsch"
  ger_argonnerwaldlied: "Argonnerwaldlied"
  ger_askari_klange: "Askari-Klänge"
+ ger_die_loreley: "Лорелея"
  ger_die_wacht_am_rhein: "Die Wacht am Rhein"
  ger_fehrbelliner_reitermarsch: "Fehrbelliner Reitermarsch"
  ger_gruss_an_kiel: "Gruß an Kiel"
@@ -96,8 +97,12 @@
  gre_the_liberation_of_serres: "The Liberation of Serres"
  
 ### ITA - Italy ###
+ ita_bandiera_rossa: "Bandiera Rossa"
  ita_fantasia_echi_di_trincea: "Fantasia «Echi di trincea»"
  ita_fratelli_d_italia: "Fratelli d'Italia"
+ ita_il_canto_degli_arditi: "Il Canto degli Arditi"
+ ita_inno_dei_bersaglieri_ciclisti: "Inno dei Bersaglieri Ciclisti"
+ ita_inno_dei_lavoratori: "Inno dei lavoratori"
  ita_la_leggenda_del_piave: "La Leggenda del Piave"
  ita_marcia_reale: "Marcia Reale"
  
