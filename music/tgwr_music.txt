@@ -826,8 +826,7 @@ music = {
 			has_government = communism
 		}
 		modifier = {
-			add = 2
-			has_government = communism
+			modifier = 2
 			original_tag = ITA
 		}
 	}
