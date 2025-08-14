@@ -606,6 +606,17 @@ music = {
 	}
 }
 music = {
+	song = "ger_die_loreley"
+	chance = {
+		base = 0
+		modifier = {
+			add = 2
+			original_tag = GER
+			has_war = no
+		}
+	}
+}
+music = {
 	song = "ger_die_wacht_am_rhein"
 	chance = {
 		base = 0
