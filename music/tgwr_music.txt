@@ -807,6 +807,21 @@ music = {
 	}	
 }
 music = {
+	song = "ita_bandiera_rossa"
+	chance = {
+		base = 0
+		modifier = {
+			add = 1
+			has_government = communism
+		}
+		modifier = {
+			add = 2
+			has_government = communism
+			original_tag = ITA
+		}
+	}
+}
+music = {
 	song = "ita_fantasia_echi_di_trincea"
 	chance = {
 		base = 0
@@ -819,6 +834,40 @@ music = {
 		base = 0
 		modifier = { add = 2	original_tag = ITA }
 	}	
+}
+music = {
+	song = "ita_il_canto_degli_arditi"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2
+			has_war = yes
+			original_tag = ITA 
+		}
+	}	
+}
+music = {
+	song = "ita_inno_dei_bersaglieri_ciclisti"
+	chance = {
+		base = 0
+		modifier = {
+			add = 2
+			has_war = yes
+			has_tech = bicycle_infantry
+			original_tag = ITA
+		}
+	}
+}
+music = {
+	song = "ita_inno_dei_lavoratori"
+	chance = {
+		base = 0
+		modifier = {
+			add = 2
+			has_government = communism
+			original_tag = ITA
+		}
+	}
 }
 music = {
 	song = "ita_la_leggenda_del_piave"

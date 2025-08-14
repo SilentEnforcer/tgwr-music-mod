@@ -545,6 +545,46 @@ music = {
 	}	
 }
 music = {
+	song = "ita_il_canto_degli_arditi"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2	
+			OR = {
+				original_tag = ITA
+				ITA = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}	
+}
+music = {
+	song = "ita_inno_dei_bersaglieri_ciclisti"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2
+			OR = {
+				original_tag = ITA
+				ITA = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+music = {
 	song = "ita_la_leggenda_del_piave"
 	chance = {
 		base = 0
