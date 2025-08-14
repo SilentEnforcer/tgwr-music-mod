@@ -606,6 +606,20 @@ music = {
 	}
 }
 music = {
+	song = "ger_der_machtigste_konig_im_luftrevier"
+	chance = {
+		base = 0
+		modifier = {
+			add = 2
+			original_tag = GER
+			OR = {
+				has_war_with = ENG
+				has_war_with = USA
+			}
+		}
+	}
+}
+music = {
 	song = "ger_die_loreley"
 	chance = {
 		base = 0
@@ -705,6 +719,26 @@ music = {
 	}
 }
 music = {
+	song = "ger_pariser_einzugsmarsch"
+	chance = {
+		base = 0
+		modifier = {
+			add = 2
+			original_tag = GER
+			has_war_with = FRA
+		}
+		modifier = {
+			add = 1
+			original_tag = GER
+			has_war_with = FRA
+			# Ile-de-France
+			16 = {
+				is_controlled_by = GER
+			}
+		}
+	}
+}
+music = {
 	song = "ger_preusens_gloria"
 	chance = {
 		base = 0
@@ -722,6 +756,13 @@ music = {
 				is_on_continent = africa
 			}
 		}
+	}
+}
+music = {
+	song = "ger_schwarzbraun_ist_die_haselnuss"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = GER }
 	}
 }
 music = {

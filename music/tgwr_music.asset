@@ -260,6 +260,11 @@ music = {
 	volume = 0.65
 }
 music = {
+	name = "ger_der_machtigste_konig_im_luftrevier"
+	file = "audio/01_europe/GER/ger_der_machtigste_konig_im_luftrevier.ogg"
+	volume = 0.65
+}
+music = {
 	name = "ger_die_loreley"
 	file = "audio/01_europe/GER/ger_die_loreley.ogg"
 	volume = 0.65
@@ -315,6 +320,11 @@ music = {
 	volume = 0.65
 }
 music = {
+	name = "ger_pariser_einzugsmarsch"
+	file = "audio/01_europe/GER/ger_pariser_einzugsmarsch.ogg"
+	volume = 0.65
+}
+music = {
 	name = "ger_preusens_gloria"
 	file = "audio/01_europe/GER/ger_preusens_gloria.ogg"
 	volume = 0.65
@@ -322,6 +332,11 @@ music = {
 music = {
 	name = "ger_schon_war_die_zeit_fur_uns_in_afrika"
 	file = "audio/01_europe/GER/ger_schon_war_die_zeit_fur_uns_in_afrika.ogg"
+	volume = 0.65
+}
+music = {
+	name = "ger_schwarzbraun_ist_die_haselnuss"
+	file = "audio/01_europe/GER/ger_schwarzbraun_ist_die_haselnuss.ogg"
 	volume = 0.65
 }
 music = {

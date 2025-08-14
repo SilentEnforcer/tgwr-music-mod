@@ -238,7 +238,6 @@ music = {
 		modifier = { 
 			add = 2	
 			GER = { has_war_with = FRA }
-			
 		}
 	}
 }
@@ -246,6 +245,21 @@ music = {
 	song = "ger_askari_klange"
 	chance = {
 		base = 2
+	}
+}
+music = {
+	song = "ger_der_machtigste_konig_im_luftrevier"
+	chance = {
+		base = 0
+		modifier = {
+			add = 2
+			GER = {
+				OR = {
+					has_war_with = ENG
+					has_war_with = USA
+				}
+			}
+		}
 	}
 }
 music = {
@@ -320,6 +334,28 @@ music = {
 	}
 }
 music = {
+	song = "ger_pariser_einzugsmarsch"
+	chance = {
+		base = 0
+		modifier = {
+			add = 1
+			GER = {
+				has_war_with = FRA
+			}
+		}
+		modifier = {
+			add = 2
+			GER = {
+				has_war_with = FRA
+			}
+			# Ile-de-France
+			16 = {
+				is_controlled_by = GER
+			}
+		}
+	}
+}
+music = {
 	song = "ger_preusens_gloria"
 	chance = {
 		base = 2
@@ -327,6 +363,12 @@ music = {
 }
 music = {
 	song = "ger_schon_war_die_zeit_fur_uns_in_afrika"
+	chance = {
+		base = 2
+	}
+}
+music = {
+	song = "ger_schwarzbraun_ist_die_haselnuss"
 	chance = {
 		base = 2
 	}
