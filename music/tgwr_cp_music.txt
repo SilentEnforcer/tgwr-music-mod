@@ -3,7 +3,7 @@ music_station = "tgwr_cp_music"
 ### General ###
 
 music = {
-	song = "maintheme"
+	song = "brahms_symphony_3"
 	chance = {
 		base = 2
 	}

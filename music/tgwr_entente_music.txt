@@ -27,6 +27,27 @@ music = {
 		}
 	}
 }
+music = {
+	song = "maintheme"
+	chance = {
+		base = 0
+		modifier = {
+			add = 2
+			OR = {
+				original_tag = ITA
+				ITA = { 
+					any_allied_country = {
+						OR = {
+							original_tag = FRA
+							has_country_flag = entente_leader
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
 
 ### BEL - Belgium ###
 music = {

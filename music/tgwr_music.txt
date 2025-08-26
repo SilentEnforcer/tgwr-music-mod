@@ -10,7 +10,7 @@ music = {
 		}	
 		modifier = {
 			factor = 3
-			tag = GER
+			tag = ITA
 		}	
 	}
 }
@@ -95,6 +95,18 @@ music = {
 			has_war = yes
 			tag = AUS
 		}		
+	}
+}
+music = {
+	song = "brahms_symphony_3"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}	
+		modifier = {
+			factor = 3
+			tag = GER
+		}	
 	}
 }
 music = {
