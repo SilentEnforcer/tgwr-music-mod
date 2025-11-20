@@ -1,7 +1,7 @@
 name="The Great War Redux Music"
 dependencies={
 	"The Great War Redux"
-	"The Great War Redux - 1.16."
+	"The Great War Redux - 1.17."
 }
 tags={
 	"Sound"
