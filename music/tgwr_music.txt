@@ -150,6 +150,15 @@ music = {
 	}
 }
 music = {
+	song = "auh_entry_of_the_gladiators"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = AUS }
+		modifier = { add = 2	original_tag = CZE }
+		modifier = { add = 1	is_subject_of = AUS }
+	}
+}
+music = {
 	song = "auh_erzherzog_albrecht_marsch"
 	chance = {
 		base = 0
