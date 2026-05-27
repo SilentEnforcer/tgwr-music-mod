@@ -82,6 +82,20 @@ music = {
 	}
 }
 music = {
+	song = "radetzky_march"
+	chance = {
+		base = 0
+		modifier = { 
+			add = 2
+			OR = {
+				original_tag = AUS
+				AUS = { is_in_faction_with = GER }
+				is_subject_of = AUS
+			}			
+		}
+	}
+}
+music = {
 	song = "auh_unter_dem_doppeladler"
 	chance = {
 		base = 0

@@ -166,6 +166,14 @@ music = {
 	}
 }
 music = {
+	song = "radetzky_march"
+	chance = {
+		base = 0
+		modifier = { add = 2	original_tag = AUS }
+		modifier = { add = 1	is_subject_of = AUS }
+	}
+}
+music = {
 	song = "auh_unter_dem_doppeladler"
 	chance = {
 		base = 0
